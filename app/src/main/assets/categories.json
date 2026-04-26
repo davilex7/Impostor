@@ -1,0 +1,100 @@
+{
+  "categories": [
+    {
+      "id": "vida_cotidiana",
+      "name": "Vida Cotidiana",
+      "emoji": "⏰",
+      "words": [
+        { "civil": "Champú", "impostor": "Sábila" },
+        { "civil": "Despertador", "impostor": "Café" },
+        { "civil": "Cepillo de dientes", "impostor": "Enjuague bucal" },
+        { "civil": "Almohada", "impostor": "Manta" },
+        { "civil": "Lavadora", "impostor": "Secadora" }
+      ]
+    },
+    {
+      "id": "animales",
+      "name": "Animales y Naturaleza",
+      "emoji": "🦁",
+      "words": [
+        { "civil": "León", "impostor": "Sabana" },
+        { "civil": "Delfín", "impostor": "Tiburón" },
+        { "civil": "Águila", "impostor": "Halcón" },
+        { "civil": "Pingüino", "impostor": "Iglú" },
+        { "civil": "Elefante", "impostor": "Marfil" }
+      ]
+    },
+    {
+      "id": "comida",
+      "name": "Comida y Bebida",
+      "emoji": "🍕",
+      "words": [
+        { "civil": "Pizza", "impostor": "Calzone" },
+        { "civil": "Sushi", "impostor": "Sashimi" },
+        { "civil": "Paella", "impostor": "Arroz" },
+        { "civil": "Hamburguesa", "impostor": "Sandwich" },
+        { "civil": "Cerveza", "impostor": "Sidra" }
+      ]
+    },
+    {
+      "id": "deportes",
+      "name": "Deportes",
+      "emoji": "⚽",
+      "words": [
+        { "civil": "Fútbol", "impostor": "Balonmano" },
+        { "civil": "Tenis", "impostor": "Pádel" },
+        { "civil": "Baloncesto", "impostor": "Voleibol" },
+        { "civil": "Natación", "impostor": "Buceo" },
+        { "civil": "Boxeo", "impostor": "Karate" }
+      ]
+    },
+    {
+      "id": "tecnologia",
+      "name": "Tecnología",
+      "emoji": "💻",
+      "words": [
+        { "civil": "Teclado", "impostor": "Ratón" },
+        { "civil": "Móvil", "impostor": "Tablet" },
+        { "civil": "Wi-Fi", "impostor": "Bluetooth" },
+        { "civil": "Auriculares", "impostor": "Altavoz" },
+        { "civil": "Cargador", "impostor": "Batería" }
+      ]
+    },
+    {
+      "id": "peliculas",
+      "name": "Películas y Series",
+      "emoji": "🎬",
+      "words": [
+        { "civil": "Titanic", "impostor": "Iceberg" },
+        { "civil": "Matrix", "impostor": "Realidad virtual" },
+        { "civil": "Star Wars", "impostor": "Sable láser" },
+        { "civil": "Harry Potter", "impostor": "Varita" },
+        { "civil": "Friends", "impostor": "Cafetería" }
+      ]
+    },
+    {
+      "id": "lugares",
+      "name": "Lugares y Geografía",
+      "emoji": "🗺️",
+      "words": [
+        { "civil": "Madrid", "impostor": "Barcelona" },
+        { "civil": "París", "impostor": "Lyon" },
+        { "civil": "Tokio", "impostor": "Kioto" },
+        { "civil": "Nueva York", "impostor": "Boston" },
+        { "civil": "Roma", "impostor": "Milán" }
+      ]
+    },
+    {
+      "id": "profesiones",
+      "name": "Profesiones",
+      "emoji": "👷",
+      "words": [
+        { "civil": "Médico", "impostor": "Enfermero" },
+        { "civil": "Profesor", "impostor": "Pedagogo" },
+        { "civil": "Bombero", "impostor": "Policía" },
+        { "civil": "Cocinero", "impostor": "Camarero" },
+        { "civil": "Abogado", "impostor": "Juez" }
+      ]
+    }
+  ]
+}
