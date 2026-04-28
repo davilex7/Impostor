@@ -22,13 +22,31 @@ fun colorForName(name: String): Color {
     return AvatarPalette[idx]
 }
 
+fun colorAssignments(names: List<String>): Map<String, Color> {
+    val taken = mutableSetOf<Int>()
+    val map = mutableMapOf<String, Color>()
+    for (name in names) {
+        if (name in map) continue
+        val preferred = name.hashCode().absoluteValue % AvatarPalette.size
+        var idx = preferred
+        var attempts = 0
+        while (idx in taken && attempts < AvatarPalette.size) {
+            idx = (idx + 1) % AvatarPalette.size
+            attempts++
+        }
+        taken += idx
+        map[name] = AvatarPalette[idx]
+    }
+    return map
+}
+
 @Composable
 fun PlayerAvatar(
     name: String,
     modifier: Modifier = Modifier,
-    size: Int = 48
+    size: Int = 48,
+    color: Color = colorForName(name)
 ) {
-    val color = colorForName(name)
     val initial = name.trim().firstOrNull()?.uppercaseChar()?.toString() ?: "?"
     Box(
         modifier = modifier

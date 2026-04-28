@@ -15,6 +15,7 @@ data class ResultUiState(
     val impostorWord: String = "",
     val impostorNames: List<String> = emptyList(),
     val votedNames: List<String> = emptyList(),
+    val allPlayerNames: List<String> = emptyList(),
     val mode: GameMode = GameMode.CLASICO,
     val showHint: Boolean = false
 )
@@ -39,6 +40,7 @@ class ResultViewModel @Inject constructor(
                 impostorWord = game.impostorWord,
                 impostorNames = game.impostorNames,
                 votedNames = voted,
+                allPlayerNames = game.config.playerNames,
                 mode = game.config.mode,
                 showHint = game.config.showHint
             )

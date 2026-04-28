@@ -45,6 +45,8 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import com.davilex.impostor.ui.components.PlayerAvatar
 import com.davilex.impostor.ui.components.PrimaryButton
 import com.davilex.impostor.ui.components.SecondaryButton
+import com.davilex.impostor.ui.components.colorAssignments
+import com.davilex.impostor.ui.components.colorForName
 
 @Composable
 fun VotingScreen(
@@ -100,6 +102,7 @@ fun VotingScreen(
             }
             Spacer(Modifier.height(16.dp))
 
+            val playerColors = remember(state.players) { colorAssignments(state.players) }
             LazyVerticalGrid(
                 columns = GridCells.Fixed(2),
                 horizontalArrangement = Arrangement.spacedBy(12.dp),
@@ -109,6 +112,7 @@ fun VotingScreen(
                 items(state.players, key = { it }) { name ->
                     PlayerVoteCard(
                         name = name,
+                        color = playerColors[name] ?: colorForName(name),
                         selected = name in state.selected,
                         onClick = { viewModel.toggle(name) }
                     )
@@ -152,6 +156,7 @@ fun VotingScreen(
 @Composable
 private fun PlayerVoteCard(
     name: String,
+    color: androidx.compose.ui.graphics.Color,
     selected: Boolean,
     onClick: () -> Unit
 ) {
@@ -171,7 +176,7 @@ private fun PlayerVoteCard(
             verticalArrangement = Arrangement.Center,
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
-            PlayerAvatar(name = name, size = 56)
+            PlayerAvatar(name = name, size = 56, color = color)
             Spacer(Modifier.height(8.dp))
             Text(
                 text = name,

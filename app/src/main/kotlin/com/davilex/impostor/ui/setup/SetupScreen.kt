@@ -57,6 +57,8 @@ import com.davilex.impostor.data.local.PlayerEntity
 import com.davilex.impostor.domain.model.GameMode
 import com.davilex.impostor.ui.components.PlayerAvatar
 import com.davilex.impostor.ui.components.PrimaryButton
+import com.davilex.impostor.ui.components.colorAssignments
+import com.davilex.impostor.ui.components.colorForName
 
 @Composable
 fun SetupScreen(
@@ -237,6 +239,7 @@ private fun PlayersSection(
     var newName by remember { mutableStateOf("") }
     var editingId by remember { mutableStateOf<Int?>(null) }
     var editingName by remember { mutableStateOf("") }
+    val playerColors = remember(players) { colorAssignments(players.map { it.name }) }
 
     Column {
         SectionTitle(title = "Jugadores", subtitle = "${players.size} jugadores · mín. 3, máx. 24")
@@ -257,7 +260,11 @@ private fun PlayersSection(
                             .padding(vertical = 6.dp),
                         verticalAlignment = Alignment.CenterVertically
                     ) {
-                        PlayerAvatar(name = p.name, size = 36)
+                        PlayerAvatar(
+                            name = p.name,
+                            size = 36,
+                            color = playerColors[p.name] ?: colorForName(p.name)
+                        )
                         Spacer(Modifier.width(12.dp))
                         if (isEditing) {
                             OutlinedTextField(

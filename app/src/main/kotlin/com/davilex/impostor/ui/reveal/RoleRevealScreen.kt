@@ -15,7 +15,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.systemBars
 import androidx.compose.foundation.layout.windowInsetsPadding
-import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
@@ -28,6 +27,7 @@ import androidx.compose.material3.TextButton
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.key
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
@@ -44,8 +44,9 @@ import com.davilex.impostor.domain.model.PlayerAssignment
 import com.davilex.impostor.domain.model.PlayerRole
 import com.davilex.impostor.ui.components.PlayerAvatar
 import com.davilex.impostor.ui.components.PrimaryButton
-import com.davilex.impostor.ui.components.SecondaryButton
 import com.davilex.impostor.ui.components.SwipeRevealCard
+import com.davilex.impostor.ui.components.colorAssignments
+import com.davilex.impostor.ui.components.colorForName
 import com.davilex.impostor.ui.theme.CivilBadge
 import com.davilex.impostor.ui.theme.ImpostorBadge
 
@@ -71,19 +72,12 @@ fun RoleRevealScreen(
             .windowInsetsPadding(WindowInsets.systemBars)
             .padding(20.dp)
     ) {
-        if (state.showHandover) {
-            HandoverContent(
-                nextPlayerName = state.nextPlayerName,
-                onContinue = { viewModel.handoverContinue() }
-            )
-        } else {
-            RevealContent(
-                state = state,
-                onClose = { showAbortDialog = true },
-                onRevealed = { viewModel.markRevealed() },
-                onNext = { viewModel.next() }
-            )
-        }
+        RevealContent(
+            state = state,
+            onClose = { showAbortDialog = true },
+            onRevealed = { viewModel.markRevealed() },
+            onNext = { viewModel.next() }
+        )
     }
 
     if (showAbortDialog) {
@@ -114,6 +108,7 @@ private fun RevealContent(
     onNext: () -> Unit
 ) {
     val current = state.current ?: return
+    val playerColors = remember(state.allPlayerNames) { colorAssignments(state.allPlayerNames) }
     Column(modifier = Modifier.fillMaxSize()) {
         Row(
             modifier = Modifier.fillMaxWidth(),
@@ -130,13 +125,12 @@ private fun RevealContent(
             )
         }
         Spacer(Modifier.height(8.dp))
-        Text(
-            text = "Jugador",
-            style = MaterialTheme.typography.titleMedium,
-            color = MaterialTheme.colorScheme.onSurfaceVariant
-        )
         Row(verticalAlignment = Alignment.CenterVertically) {
-            PlayerAvatar(name = current.playerName, size = 56)
+            PlayerAvatar(
+                name = current.playerName,
+                size = 56,
+                color = playerColors[current.playerName] ?: colorForName(current.playerName)
+            )
             Spacer(Modifier.size(12.dp))
             Text(
                 text = current.playerName,
@@ -151,11 +145,13 @@ private fun RevealContent(
             .fillMaxWidth()
             .weight(1f)
         ) {
-            SwipeRevealCard(
-                onRevealed = onRevealed,
-                modifier = Modifier.fillMaxSize(),
-                revealed = { RevealedContent(assignment = current, mode = state.mode) }
-            )
+            key(state.index) {
+                SwipeRevealCard(
+                    onRevealed = onRevealed,
+                    modifier = Modifier.fillMaxSize(),
+                    revealed = { RevealedContent(assignment = current, mode = state.mode) }
+                )
+            }
         }
 
         Spacer(Modifier.height(12.dp))
@@ -246,39 +242,3 @@ private fun LabeledWord(label: String, word: String) {
     )
 }
 
-@Composable
-private fun HandoverContent(
-    nextPlayerName: String,
-    onContinue: () -> Unit
-) {
-    Column(
-        modifier = Modifier.fillMaxSize(),
-        horizontalAlignment = Alignment.CenterHorizontally,
-        verticalArrangement = Arrangement.Center
-    ) {
-        Box(
-            modifier = Modifier
-                .size(96.dp)
-                .clip(CircleShape)
-                .background(MaterialTheme.colorScheme.surface),
-            contentAlignment = Alignment.Center
-        ) {
-            Text(text = "📱", style = MaterialTheme.typography.displayMedium)
-        }
-        Spacer(Modifier.height(16.dp))
-        Text(
-            text = "Pasa el móvil",
-            style = MaterialTheme.typography.titleLarge,
-            color = MaterialTheme.colorScheme.onBackground
-        )
-        Spacer(Modifier.height(8.dp))
-        Text(
-            text = "a $nextPlayerName",
-            style = MaterialTheme.typography.displayMedium,
-            color = MaterialTheme.colorScheme.onBackground,
-            textAlign = TextAlign.Center
-        )
-        Spacer(Modifier.height(24.dp))
-        SecondaryButton(text = "Estoy listo", onClick = onContinue)
-    }
-}

@@ -18,9 +18,8 @@ data class RevealUiState(
     val mode: GameMode = GameMode.CLASICO,
     val index: Int = 0,
     val total: Int = 0,
-    val nextPlayerName: String = "",
+    val allPlayerNames: List<String> = emptyList(),
     val revealed: Boolean = false,
-    val showHandover: Boolean = false,
     val finished: Boolean = false
 ) {
     val isLast: Boolean get() = index == (total - 1)
@@ -43,16 +42,14 @@ class RoleRevealViewModel @Inject constructor(
 
     private fun applyAssignment(game: GameState, index: Int) {
         val assignment = game.assignments[index]
-        val next = game.assignments.getOrNull(index + 1)?.playerName.orEmpty()
         _state.value = RevealUiState(
             playerName = assignment.playerName,
             current = assignment,
             mode = game.config.mode,
             index = index,
             total = game.assignments.size,
-            nextPlayerName = next,
+            allPlayerNames = game.config.playerNames,
             revealed = false,
-            showHandover = false,
             finished = false
         )
     }
@@ -69,13 +66,7 @@ class RoleRevealViewModel @Inject constructor(
             _state.update { it.copy(finished = true) }
             return true
         }
-        _state.update { it.copy(showHandover = true) }
+        applyAssignment(game, current.index + 1)
         return false
-    }
-
-    fun handoverContinue() {
-        val game = gameSession.current ?: return
-        val nextIndex = _state.value.index + 1
-        applyAssignment(game, nextIndex)
     }
 }
