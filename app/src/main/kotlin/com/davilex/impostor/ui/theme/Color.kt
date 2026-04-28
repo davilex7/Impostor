@@ -33,5 +33,21 @@ val AvatarPalette = listOf(
     Color(0xFFEC4899),
     Color(0xFF14B8A6),
     Color(0xFFFACC15),
-    Color(0xFFEF4444)
+    Color(0xFFEF4444),
+    Color(0xFF6366F1),
+    Color(0xFF84CC16),
+    Color(0xFF06B6D4),
+    Color(0xFFD946EF),
+    Color(0xFFF43F5E),
+    Color(0xFF0EA5E9),
+    Color(0xFF8B5CF6),
+    Color(0xFFEAB308),
+    Color(0xFF10B981),
+    Color(0xFFFB7185),
+    Color(0xFF65A30D),
+    Color(0xFF7C3AED),
+    Color(0xFFC026D3),
+    Color(0xFFEA580C),
+    Color(0xFF0891B2),
+    Color(0xFFB91C1C)
 )

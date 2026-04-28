@@ -33,6 +33,8 @@ import com.davilex.impostor.domain.model.GameMode
 import com.davilex.impostor.ui.components.PlayerAvatar
 import com.davilex.impostor.ui.components.PrimaryButton
 import com.davilex.impostor.ui.components.SecondaryButton
+import com.davilex.impostor.ui.components.colorAssignments
+import com.davilex.impostor.ui.components.colorForName
 
 @Composable
 fun ResultScreen(
@@ -102,12 +104,18 @@ fun ResultScreen(
                         color = MaterialTheme.colorScheme.onSurfaceVariant
                     )
                     Spacer(Modifier.height(8.dp))
+                    val playerColors = androidx.compose.runtime.remember(state.allPlayerNames) {
+                        colorAssignments(state.allPlayerNames)
+                    }
                     FlowRow(
                         horizontalArrangement = Arrangement.spacedBy(8.dp),
                         verticalArrangement = Arrangement.spacedBy(8.dp)
                     ) {
                         state.impostorNames.forEach { name ->
-                            ImpostorChip(name = name)
+                            ImpostorChip(
+                                name = name,
+                                color = playerColors[name] ?: colorForName(name)
+                            )
                         }
                     }
                 }
@@ -158,7 +166,7 @@ private fun InfoCard(label: String, value: String) {
 }
 
 @Composable
-private fun ImpostorChip(name: String) {
+private fun ImpostorChip(name: String, color: Color) {
     Row(
         verticalAlignment = Alignment.CenterVertically,
         modifier = androidx.compose.ui.Modifier
@@ -166,7 +174,7 @@ private fun ImpostorChip(name: String) {
             .background(MaterialTheme.colorScheme.error.copy(alpha = 0.16f))
             .padding(horizontal = 10.dp, vertical = 6.dp)
     ) {
-        PlayerAvatar(name = name, size = 28)
+        PlayerAvatar(name = name, size = 28, color = color)
         Spacer(androidx.compose.ui.Modifier.size(8.dp))
         Text(name, color = Color.White, style = MaterialTheme.typography.titleSmall)
     }

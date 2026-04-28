@@ -41,14 +41,14 @@ fun SwipeRevealCard(
     revealed: @Composable () -> Unit,
     onRevealed: () -> Unit,
     modifier: Modifier = Modifier,
-    coverHint: String = "Arrastra tu tarjeta para revelar tu palabra. ¡Evita a los impostores! 👀"
+    coverHint: String = "Desliza tu tarjeta hacia arriba para revelar tu palabra. ¡Evita a los impostores! 👀"
 ) {
     var heightPx by remember { mutableFloatStateOf(0f) }
     var dragOffset by remember { mutableFloatStateOf(0f) }
     var isRevealed by remember { mutableStateOf(false) }
 
     val animatedOffset by animateFloatAsState(
-        targetValue = if (isRevealed) heightPx else dragOffset,
+        targetValue = if (isRevealed) -heightPx else dragOffset,
         animationSpec = tween(durationMillis = 320),
         label = "swipe-reveal-offset"
     )
@@ -85,7 +85,7 @@ fun SwipeRevealCard(
                         if (heightPx <= 0f) return@pointerInput
                         detectVerticalDragGestures(
                             onDragEnd = {
-                                if (dragOffset >= heightPx * 0.5f) {
+                                if (dragOffset <= -heightPx * 0.5f) {
                                     isRevealed = true
                                 } else {
                                     dragOffset = 0f
@@ -93,7 +93,7 @@ fun SwipeRevealCard(
                             },
                             onDragCancel = { dragOffset = 0f }
                         ) { _, dragAmount ->
-                            val next = (dragOffset + dragAmount).coerceIn(0f, heightPx)
+                            val next = (dragOffset + dragAmount).coerceIn(-heightPx, 0f)
                             dragOffset = next
                         }
                     }
@@ -129,7 +129,7 @@ private fun CoverCard(
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Text(
-                text = "👇",
+                text = "👆",
                 fontWeight = FontWeight.Bold,
                 style = MaterialTheme.typography.displayLarge
             )
@@ -142,7 +142,7 @@ private fun CoverCard(
             )
             Spacer(Modifier.height(8.dp))
             Text(
-                text = "Desliza hacia abajo ↓",
+                text = "Desliza hacia arriba ↑",
                 color = Color.White.copy(alpha = 0.6f),
                 style = MaterialTheme.typography.bodyMedium,
                 textAlign = TextAlign.Center
