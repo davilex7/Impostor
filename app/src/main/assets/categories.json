@@ -5,11 +5,822 @@
       "name": "Vida Cotidiana",
       "emoji": "⏰",
       "words": [
-        { "civil": "Champú", "impostor": "Sábila" },
-        { "civil": "Despertador", "impostor": "Café" },
-        { "civil": "Cepillo de dientes", "impostor": "Enjuague bucal" },
-        { "civil": "Almohada", "impostor": "Manta" },
-        { "civil": "Lavadora", "impostor": "Secadora" }
+        {
+          "civil": "Champú",
+          "impostor": "Sábila"
+        },
+        {
+          "civil": "Despertador",
+          "impostor": "Café"
+        },
+        {
+          "civil": "Cepillo de dientes",
+          "impostor": "Hilo dental"
+        },
+        {
+          "civil": "Almohada",
+          "impostor": "Sábana"
+        },
+        {
+          "civil": "Lavadora",
+          "impostor": "Detergente"
+        },
+        {
+          "civil": "Sofá",
+          "impostor": "Manta"
+        },
+        {
+          "civil": "Aspiradora",
+          "impostor": "Polvo"
+        },
+        {
+          "civil": "Microondas",
+          "impostor": "Palomitas"
+        },
+        {
+          "civil": "Nevera",
+          "impostor": "Imán"
+        },
+        {
+          "civil": "Espejo",
+          "impostor": "Maquillaje"
+        },
+        {
+          "civil": "Cortinas",
+          "impostor": "Sol"
+        },
+        {
+          "civil": "Plancha",
+          "impostor": "Arruga"
+        },
+        {
+          "civil": "Escoba",
+          "impostor": "Bruja"
+        },
+        {
+          "civil": "Llaves",
+          "impostor": "Cerradura"
+        },
+        {
+          "civil": "Toalla",
+          "impostor": "Vestuario"
+        },
+        {
+          "civil": "Jabón",
+          "impostor": "Espuma"
+        },
+        {
+          "civil": "Peine",
+          "impostor": "Piojos"
+        },
+        {
+          "civil": "Reloj",
+          "impostor": "Puntualidad"
+        },
+        {
+          "civil": "Bolso",
+          "impostor": "Compras"
+        },
+        {
+          "civil": "Mochila",
+          "impostor": "Excursión"
+        },
+        {
+          "civil": "Paraguas",
+          "impostor": "Charco"
+        },
+        {
+          "civil": "Gafas",
+          "impostor": "Miopía"
+        },
+        {
+          "civil": "Pijama",
+          "impostor": "Domingo"
+        },
+        {
+          "civil": "Calcetines",
+          "impostor": "Lana"
+        },
+        {
+          "civil": "Zapatos",
+          "impostor": "Cordones"
+        },
+        {
+          "civil": "Cinturón",
+          "impostor": "Hebilla"
+        },
+        {
+          "civil": "Anillo",
+          "impostor": "Boda"
+        },
+        {
+          "civil": "Pulsera",
+          "impostor": "Tobillera"
+        },
+        {
+          "civil": "Collar",
+          "impostor": "Cadena"
+        },
+        {
+          "civil": "Pendientes",
+          "impostor": "Piercing"
+        },
+        {
+          "civil": "Crema",
+          "impostor": "Hidratación"
+        },
+        {
+          "civil": "Perfume",
+          "impostor": "Frasco"
+        },
+        {
+          "civil": "Tijeras",
+          "impostor": "Peluquería"
+        },
+        {
+          "civil": "Aguja",
+          "impostor": "Pajar"
+        },
+        {
+          "civil": "Hilo",
+          "impostor": "Tejido"
+        },
+        {
+          "civil": "Botón",
+          "impostor": "Ojal"
+        },
+        {
+          "civil": "Cremallera",
+          "impostor": "Bragueta"
+        },
+        {
+          "civil": "Bufanda",
+          "impostor": "Cuello"
+        },
+        {
+          "civil": "Guantes",
+          "impostor": "Mitones"
+        },
+        {
+          "civil": "Sombrilla",
+          "impostor": "Bronceador"
+        },
+        {
+          "civil": "Camisa",
+          "impostor": "Corbata"
+        },
+        {
+          "civil": "Vestido",
+          "impostor": "Tul"
+        },
+        {
+          "civil": "Falda",
+          "impostor": "Plisado"
+        },
+        {
+          "civil": "Pantalón",
+          "impostor": "Vaquero"
+        },
+        {
+          "civil": "Bañador",
+          "impostor": "Piscina"
+        },
+        {
+          "civil": "Cartera",
+          "impostor": "Dinero"
+        },
+        {
+          "civil": "Calculadora",
+          "impostor": "Matemáticas"
+        },
+        {
+          "civil": "Bolígrafo",
+          "impostor": "Tinta"
+        },
+        {
+          "civil": "Lápiz",
+          "impostor": "Goma"
+        },
+        {
+          "civil": "Cuaderno",
+          "impostor": "Apuntes"
+        },
+        {
+          "civil": "Cama",
+          "impostor": "Sueño"
+        },
+        {
+          "civil": "Mesa",
+          "impostor": "Mantel"
+        },
+        {
+          "civil": "Silla",
+          "impostor": "Mecedora"
+        },
+        {
+          "civil": "Armario",
+          "impostor": "Percha"
+        },
+        {
+          "civil": "Estantería",
+          "impostor": "Libros"
+        },
+        {
+          "civil": "Lámpara",
+          "impostor": "Bombilla"
+        },
+        {
+          "civil": "Vela",
+          "impostor": "Cumpleaños"
+        },
+        {
+          "civil": "Cerillas",
+          "impostor": "Fuego"
+        },
+        {
+          "civil": "Mechero",
+          "impostor": "Tabaco"
+        },
+        {
+          "civil": "Cenicero",
+          "impostor": "Colilla"
+        },
+        {
+          "civil": "Papelera",
+          "impostor": "Basura"
+        },
+        {
+          "civil": "Fregona",
+          "impostor": "Suelo"
+        },
+        {
+          "civil": "Tenedor",
+          "impostor": "Espagueti"
+        },
+        {
+          "civil": "Cuchara",
+          "impostor": "Sopa"
+        },
+        {
+          "civil": "Cuchillo",
+          "impostor": "Mantequilla"
+        },
+        {
+          "civil": "Plato",
+          "impostor": "Vajilla"
+        },
+        {
+          "civil": "Vaso",
+          "impostor": "Agua"
+        },
+        {
+          "civil": "Taza",
+          "impostor": "Té"
+        },
+        {
+          "civil": "Botella",
+          "impostor": "Tapón"
+        },
+        {
+          "civil": "Servilleta",
+          "impostor": "Boca"
+        },
+        {
+          "civil": "Olla",
+          "impostor": "Cocido"
+        },
+        {
+          "civil": "Sartén",
+          "impostor": "Tortilla"
+        },
+        {
+          "civil": "Cazuela",
+          "impostor": "Estofado"
+        },
+        {
+          "civil": "Rodillo",
+          "impostor": "Masa"
+        },
+        {
+          "civil": "Batidora",
+          "impostor": "Smoothie"
+        },
+        {
+          "civil": "Tostadora",
+          "impostor": "Pan"
+        },
+        {
+          "civil": "Cafetera",
+          "impostor": "Espresso"
+        },
+        {
+          "civil": "Exprimidor",
+          "impostor": "Naranja"
+        },
+        {
+          "civil": "Rallador",
+          "impostor": "Queso"
+        },
+        {
+          "civil": "Colador",
+          "impostor": "Macarrones"
+        },
+        {
+          "civil": "Abrelatas",
+          "impostor": "Conserva"
+        },
+        {
+          "civil": "Sacacorchos",
+          "impostor": "Vino"
+        },
+        {
+          "civil": "Tarro",
+          "impostor": "Mermelada"
+        },
+        {
+          "civil": "Lavavajillas",
+          "impostor": "Cubiertos"
+        },
+        {
+          "civil": "Horno",
+          "impostor": "Pollo"
+        },
+        {
+          "civil": "Congelador",
+          "impostor": "Hielo"
+        },
+        {
+          "civil": "Alfombra",
+          "impostor": "Pasillo"
+        },
+        {
+          "civil": "Cojín",
+          "impostor": "Decoración"
+        },
+        {
+          "civil": "Florero",
+          "impostor": "Tulipán"
+        },
+        {
+          "civil": "Cuadro",
+          "impostor": "Pared"
+        },
+        {
+          "civil": "Pintura",
+          "impostor": "Brocha"
+        },
+        {
+          "civil": "Martillo",
+          "impostor": "Clavo"
+        },
+        {
+          "civil": "Destornillador",
+          "impostor": "Tornillo"
+        },
+        {
+          "civil": "Sierra",
+          "impostor": "Madera"
+        },
+        {
+          "civil": "Taladro",
+          "impostor": "Agujero"
+        },
+        {
+          "civil": "Cinta métrica",
+          "impostor": "Centímetro"
+        },
+        {
+          "civil": "Llave inglesa",
+          "impostor": "Tubería"
+        },
+        {
+          "civil": "Tendedero",
+          "impostor": "Cuerda"
+        },
+        {
+          "civil": "Cesto",
+          "impostor": "Ropa sucia"
+        },
+        {
+          "civil": "Bañera",
+          "impostor": "Pato de goma"
+        },
+        {
+          "civil": "Ducha",
+          "impostor": "Gel"
+        },
+        {
+          "civil": "Inodoro",
+          "impostor": "Cisterna"
+        },
+        {
+          "civil": "Bidé",
+          "impostor": "Francés"
+        },
+        {
+          "civil": "Lavabo",
+          "impostor": "Grifo"
+        },
+        {
+          "civil": "Báscula",
+          "impostor": "Peso"
+        },
+        {
+          "civil": "Termómetro",
+          "impostor": "Fiebre"
+        },
+        {
+          "civil": "Botiquín",
+          "impostor": "Tirita"
+        },
+        {
+          "civil": "Vendaje",
+          "impostor": "Esguince"
+        },
+        {
+          "civil": "Aspirina",
+          "impostor": "Dolor de cabeza"
+        },
+        {
+          "civil": "Jarabe",
+          "impostor": "Tos"
+        },
+        {
+          "civil": "Pastilla",
+          "impostor": "Receta"
+        },
+        {
+          "civil": "Repelente",
+          "impostor": "Mosquito"
+        },
+        {
+          "civil": "Mosquitera",
+          "impostor": "Verano"
+        },
+        {
+          "civil": "Ventana",
+          "impostor": "Persiana"
+        },
+        {
+          "civil": "Felpudo",
+          "impostor": "Bienvenida"
+        },
+        {
+          "civil": "Timbre",
+          "impostor": "Visita"
+        },
+        {
+          "civil": "Ascensor",
+          "impostor": "Edificio"
+        },
+        {
+          "civil": "Buzón",
+          "impostor": "Carta"
+        },
+        {
+          "civil": "Sobre",
+          "impostor": "Sello"
+        },
+        {
+          "civil": "Postal",
+          "impostor": "Vacaciones"
+        },
+        {
+          "civil": "Maleta",
+          "impostor": "Aeropuerto"
+        },
+        {
+          "civil": "Carrito",
+          "impostor": "Supermercado"
+        },
+        {
+          "civil": "Cuna",
+          "impostor": "Llanto"
+        },
+        {
+          "civil": "Biberón",
+          "impostor": "Leche"
+        },
+        {
+          "civil": "Pañal",
+          "impostor": "Cambio"
+        },
+        {
+          "civil": "Chupete",
+          "impostor": "Silencio"
+        },
+        {
+          "civil": "Sonajero",
+          "impostor": "Juguete"
+        },
+        {
+          "civil": "Peluche",
+          "impostor": "Niño"
+        },
+        {
+          "civil": "Pañuelo",
+          "impostor": "Resfriado"
+        },
+        {
+          "civil": "Edredón",
+          "impostor": "Plumas"
+        },
+        {
+          "civil": "Colchón",
+          "impostor": "Muelles"
+        },
+        {
+          "civil": "Cinta adhesiva",
+          "impostor": "Embalaje"
+        },
+        {
+          "civil": "Pegamento",
+          "impostor": "Manualidad"
+        },
+        {
+          "civil": "Grapadora",
+          "impostor": "Documento"
+        },
+        {
+          "civil": "Carpeta",
+          "impostor": "Archivo"
+        },
+        {
+          "civil": "Goma elástica",
+          "impostor": "Tirachinas"
+        },
+        {
+          "civil": "Pinza de ropa",
+          "impostor": "Tendedero"
+        },
+        {
+          "civil": "Plancha de pelo",
+          "impostor": "Liso"
+        },
+        {
+          "civil": "Secador",
+          "impostor": "Caliente"
+        },
+        {
+          "civil": "Bastoncillos",
+          "impostor": "Oído"
+        },
+        {
+          "civil": "Cortauñas",
+          "impostor": "Manicura"
+        },
+        {
+          "civil": "Maquinilla de afeitar",
+          "impostor": "Barba"
+        },
+        {
+          "civil": "Espuma de afeitar",
+          "impostor": "Brocha"
+        },
+        {
+          "civil": "Desodorante",
+          "impostor": "Axila"
+        },
+        {
+          "civil": "Pasta de dientes",
+          "impostor": "Menta"
+        },
+        {
+          "civil": "Enjuague bucal",
+          "impostor": "Aliento"
+        },
+        {
+          "civil": "Pinzas",
+          "impostor": "Cejas"
+        },
+        {
+          "civil": "Esponja",
+          "impostor": "Limpieza"
+        },
+        {
+          "civil": "Lejía",
+          "impostor": "Blanco"
+        },
+        {
+          "civil": "Suavizante",
+          "impostor": "Aroma"
+        },
+        {
+          "civil": "Quitamanchas",
+          "impostor": "Vino tinto"
+        },
+        {
+          "civil": "Llavero",
+          "impostor": "Recuerdo"
+        },
+        {
+          "civil": "Mando a distancia",
+          "impostor": "Sofá"
+        },
+        {
+          "civil": "Caja fuerte",
+          "impostor": "Combinación"
+        },
+        {
+          "civil": "Hucha",
+          "impostor": "Cerdito"
+        },
+        {
+          "civil": "Calendario",
+          "impostor": "Festivo"
+        },
+        {
+          "civil": "Agenda",
+          "impostor": "Cita"
+        },
+        {
+          "civil": "Hilo dental",
+          "impostor": "Cepillo de dientes"
+        },
+        {
+          "civil": "Sábana",
+          "impostor": "Almohada"
+        },
+        {
+          "civil": "Detergente",
+          "impostor": "Lavadora"
+        },
+        {
+          "civil": "Manta",
+          "impostor": "Sofá"
+        },
+        {
+          "civil": "Polvo",
+          "impostor": "Aspiradora"
+        },
+        {
+          "civil": "Palomitas",
+          "impostor": "Microondas"
+        },
+        {
+          "civil": "Maquillaje",
+          "impostor": "Espejo"
+        },
+        {
+          "civil": "Bruja",
+          "impostor": "Escoba"
+        },
+        {
+          "civil": "Cerradura",
+          "impostor": "Llaves"
+        },
+        {
+          "civil": "Espuma",
+          "impostor": "Jabón"
+        },
+        {
+          "civil": "Piojos",
+          "impostor": "Peine"
+        },
+        {
+          "civil": "Miopía",
+          "impostor": "Gafas"
+        },
+        {
+          "civil": "Lana",
+          "impostor": "Calcetines"
+        },
+        {
+          "civil": "Cordones",
+          "impostor": "Zapatos"
+        },
+        {
+          "civil": "Hebilla",
+          "impostor": "Cinturón"
+        },
+        {
+          "civil": "Boda",
+          "impostor": "Anillo"
+        },
+        {
+          "civil": "Tobillera",
+          "impostor": "Pulsera"
+        },
+        {
+          "civil": "Cadena",
+          "impostor": "Collar"
+        },
+        {
+          "civil": "Piercing",
+          "impostor": "Pendientes"
+        },
+        {
+          "civil": "Peluquería",
+          "impostor": "Tijeras"
+        },
+        {
+          "civil": "Pajar",
+          "impostor": "Aguja"
+        },
+        {
+          "civil": "Ojal",
+          "impostor": "Botón"
+        },
+        {
+          "civil": "Bragueta",
+          "impostor": "Cremallera"
+        },
+        {
+          "civil": "Mitones",
+          "impostor": "Guantes"
+        },
+        {
+          "civil": "Bronceador",
+          "impostor": "Sombrilla"
+        },
+        {
+          "civil": "Corbata",
+          "impostor": "Camisa"
+        },
+        {
+          "civil": "Piscina",
+          "impostor": "Bañador"
+        },
+        {
+          "civil": "Tinta",
+          "impostor": "Bolígrafo"
+        },
+        {
+          "civil": "Goma",
+          "impostor": "Lápiz"
+        },
+        {
+          "civil": "Mantel",
+          "impostor": "Mesa"
+        },
+        {
+          "civil": "Mecedora",
+          "impostor": "Silla"
+        },
+        {
+          "civil": "Percha",
+          "impostor": "Armario"
+        },
+        {
+          "civil": "Bombilla",
+          "impostor": "Lámpara"
+        },
+        {
+          "civil": "Tabaco",
+          "impostor": "Mechero"
+        },
+        {
+          "civil": "Colilla",
+          "impostor": "Cenicero"
+        },
+        {
+          "civil": "Cubiertos",
+          "impostor": "Lavavajillas"
+        },
+        {
+          "civil": "Hielo",
+          "impostor": "Congelador"
+        },
+        {
+          "civil": "Brocha",
+          "impostor": "Pintura"
+        },
+        {
+          "civil": "Clavo",
+          "impostor": "Martillo"
+        },
+        {
+          "civil": "Tornillo",
+          "impostor": "Destornillador"
+        },
+        {
+          "civil": "Cisterna",
+          "impostor": "Inodoro"
+        },
+        {
+          "civil": "Grifo",
+          "impostor": "Lavabo"
+        },
+        {
+          "civil": "Tirita",
+          "impostor": "Botiquín"
+        },
+        {
+          "civil": "Persiana",
+          "impostor": "Ventana"
+        },
+        {
+          "civil": "Carta",
+          "impostor": "Buzón"
+        },
+        {
+          "civil": "Sello",
+          "impostor": "Sobre"
+        },
+        {
+          "civil": "Tirachinas",
+          "impostor": "Goma elástica"
+        }
       ]
     },
     {
@@ -17,11 +828,730 @@
       "name": "Animales y Naturaleza",
       "emoji": "🦁",
       "words": [
-        { "civil": "León", "impostor": "Sabana" },
-        { "civil": "Delfín", "impostor": "Tiburón" },
-        { "civil": "Águila", "impostor": "Halcón" },
-        { "civil": "Pingüino", "impostor": "Iglú" },
-        { "civil": "Elefante", "impostor": "Marfil" }
+        {
+          "civil": "León",
+          "impostor": "Sabana"
+        },
+        {
+          "civil": "Delfín",
+          "impostor": "Tiburón"
+        },
+        {
+          "civil": "Águila",
+          "impostor": "Halcón"
+        },
+        {
+          "civil": "Pingüino",
+          "impostor": "Iglú"
+        },
+        {
+          "civil": "Elefante",
+          "impostor": "Marfil"
+        },
+        {
+          "civil": "Tigre",
+          "impostor": "Bengala"
+        },
+        {
+          "civil": "Leopardo",
+          "impostor": "Manchas"
+        },
+        {
+          "civil": "Jirafa",
+          "impostor": "Cuello largo"
+        },
+        {
+          "civil": "Cebra",
+          "impostor": "Rayas"
+        },
+        {
+          "civil": "Hipopótamo",
+          "impostor": "Río"
+        },
+        {
+          "civil": "Rinoceronte",
+          "impostor": "Cuerno"
+        },
+        {
+          "civil": "Mono",
+          "impostor": "Plátano"
+        },
+        {
+          "civil": "Gorila",
+          "impostor": "Selva"
+        },
+        {
+          "civil": "Chimpancé",
+          "impostor": "Inteligente"
+        },
+        {
+          "civil": "Orangután",
+          "impostor": "Pelirrojo"
+        },
+        {
+          "civil": "Oso panda",
+          "impostor": "Bambú"
+        },
+        {
+          "civil": "Oso polar",
+          "impostor": "Ártico"
+        },
+        {
+          "civil": "Oso pardo",
+          "impostor": "Miel"
+        },
+        {
+          "civil": "Lobo",
+          "impostor": "Aullido"
+        },
+        {
+          "civil": "Zorro",
+          "impostor": "Astuto"
+        },
+        {
+          "civil": "Coyote",
+          "impostor": "Desierto"
+        },
+        {
+          "civil": "Hiena",
+          "impostor": "Carroña"
+        },
+        {
+          "civil": "Pantera",
+          "impostor": "Negra"
+        },
+        {
+          "civil": "Lince",
+          "impostor": "Ibérico"
+        },
+        {
+          "civil": "Puma",
+          "impostor": "Montaña"
+        },
+        {
+          "civil": "Jaguar",
+          "impostor": "Amazonas"
+        },
+        {
+          "civil": "Guepardo",
+          "impostor": "Velocidad"
+        },
+        {
+          "civil": "Ciervo",
+          "impostor": "Bambi"
+        },
+        {
+          "civil": "Reno",
+          "impostor": "Navidad"
+        },
+        {
+          "civil": "Alce",
+          "impostor": "Canadá"
+        },
+        {
+          "civil": "Cabra",
+          "impostor": "Queso"
+        },
+        {
+          "civil": "Oveja",
+          "impostor": "Pastor"
+        },
+        {
+          "civil": "Vaca",
+          "impostor": "Establo"
+        },
+        {
+          "civil": "Toro",
+          "impostor": "Capote"
+        },
+        {
+          "civil": "Cerdo",
+          "impostor": "Granja"
+        },
+        {
+          "civil": "Caballo",
+          "impostor": "Herradura"
+        },
+        {
+          "civil": "Burro",
+          "impostor": "Testarudo"
+        },
+        {
+          "civil": "Mula",
+          "impostor": "Carga"
+        },
+        {
+          "civil": "Gallina",
+          "impostor": "Huevo"
+        },
+        {
+          "civil": "Gallo",
+          "impostor": "Amanecer"
+        },
+        {
+          "civil": "Pavo",
+          "impostor": "Acción de Gracias"
+        },
+        {
+          "civil": "Pato",
+          "impostor": "Estanque"
+        },
+        {
+          "civil": "Ganso",
+          "impostor": "Pluma"
+        },
+        {
+          "civil": "Cisne",
+          "impostor": "Lago"
+        },
+        {
+          "civil": "Águila calva",
+          "impostor": "Estados Unidos"
+        },
+        {
+          "civil": "Búho",
+          "impostor": "Sabiduría"
+        },
+        {
+          "civil": "Lechuza",
+          "impostor": "Granero"
+        },
+        {
+          "civil": "Cuervo",
+          "impostor": "Negro"
+        },
+        {
+          "civil": "Loro",
+          "impostor": "Hablar"
+        },
+        {
+          "civil": "Tucán",
+          "impostor": "Tropical"
+        },
+        {
+          "civil": "Flamenco",
+          "impostor": "Rosa"
+        },
+        {
+          "civil": "Avestruz",
+          "impostor": "No vuela"
+        },
+        {
+          "civil": "Colibrí",
+          "impostor": "Néctar"
+        },
+        {
+          "civil": "Gorrión",
+          "impostor": "Pequeño"
+        },
+        {
+          "civil": "Paloma",
+          "impostor": "Plaza"
+        },
+        {
+          "civil": "Gaviota",
+          "impostor": "Costa"
+        },
+        {
+          "civil": "Pelícano",
+          "impostor": "Bolsa"
+        },
+        {
+          "civil": "Tiburón",
+          "impostor": "Aleta"
+        },
+        {
+          "civil": "Ballena",
+          "impostor": "Plancton"
+        },
+        {
+          "civil": "Orca",
+          "impostor": "Blanco y negro"
+        },
+        {
+          "civil": "Foca",
+          "impostor": "Hielo"
+        },
+        {
+          "civil": "Morsa",
+          "impostor": "Colmillo"
+        },
+        {
+          "civil": "Pulpo",
+          "impostor": "Tentáculo"
+        },
+        {
+          "civil": "Calamar",
+          "impostor": "Tinta"
+        },
+        {
+          "civil": "Cangrejo",
+          "impostor": "Pinza"
+        },
+        {
+          "civil": "Langosta",
+          "impostor": "Marisco"
+        },
+        {
+          "civil": "Gamba",
+          "impostor": "Plancha"
+        },
+        {
+          "civil": "Tortuga",
+          "impostor": "Caparazón"
+        },
+        {
+          "civil": "Cocodrilo",
+          "impostor": "Lágrima"
+        },
+        {
+          "civil": "Caimán",
+          "impostor": "Pantano"
+        },
+        {
+          "civil": "Iguana",
+          "impostor": "Reptil"
+        },
+        {
+          "civil": "Camaleón",
+          "impostor": "Color"
+        },
+        {
+          "civil": "Lagarto",
+          "impostor": "Cola"
+        },
+        {
+          "civil": "Serpiente",
+          "impostor": "Veneno"
+        },
+        {
+          "civil": "Cobra",
+          "impostor": "Encantador"
+        },
+        {
+          "civil": "Pitón",
+          "impostor": "Constrictor"
+        },
+        {
+          "civil": "Anaconda",
+          "impostor": "Amazonas"
+        },
+        {
+          "civil": "Rana",
+          "impostor": "Príncipe"
+        },
+        {
+          "civil": "Sapo",
+          "impostor": "Verruga"
+        },
+        {
+          "civil": "Salamandra",
+          "impostor": "Húmedo"
+        },
+        {
+          "civil": "Abeja",
+          "impostor": "Panal"
+        },
+        {
+          "civil": "Avispa",
+          "impostor": "Picadura"
+        },
+        {
+          "civil": "Hormiga",
+          "impostor": "Hormiguero"
+        },
+        {
+          "civil": "Mariposa",
+          "impostor": "Crisálida"
+        },
+        {
+          "civil": "Polilla",
+          "impostor": "Ropa"
+        },
+        {
+          "civil": "Mosca",
+          "impostor": "Suciedad"
+        },
+        {
+          "civil": "Mosquito",
+          "impostor": "Picor"
+        },
+        {
+          "civil": "Libélula",
+          "impostor": "Charca"
+        },
+        {
+          "civil": "Saltamontes",
+          "impostor": "Hierba"
+        },
+        {
+          "civil": "Grillo",
+          "impostor": "Noche"
+        },
+        {
+          "civil": "Cucaracha",
+          "impostor": "Plaga"
+        },
+        {
+          "civil": "Escarabajo",
+          "impostor": "Egipto"
+        },
+        {
+          "civil": "Mariquita",
+          "impostor": "Suerte"
+        },
+        {
+          "civil": "Araña",
+          "impostor": "Telaraña"
+        },
+        {
+          "civil": "Tarántula",
+          "impostor": "Peluda"
+        },
+        {
+          "civil": "Escorpión",
+          "impostor": "Aguijón"
+        },
+        {
+          "civil": "Ciempiés",
+          "impostor": "Patas"
+        },
+        {
+          "civil": "Caracol",
+          "impostor": "Concha"
+        },
+        {
+          "civil": "Babosa",
+          "impostor": "Sal"
+        },
+        {
+          "civil": "Lombriz",
+          "impostor": "Tierra"
+        },
+        {
+          "civil": "Murciélago",
+          "impostor": "Cueva"
+        },
+        {
+          "civil": "Erizo",
+          "impostor": "Púas"
+        },
+        {
+          "civil": "Topo",
+          "impostor": "Túnel"
+        },
+        {
+          "civil": "Ratón",
+          "impostor": "Trampa"
+        },
+        {
+          "civil": "Rata",
+          "impostor": "Alcantarilla"
+        },
+        {
+          "civil": "Hámster",
+          "impostor": "Rueda"
+        },
+        {
+          "civil": "Conejo",
+          "impostor": "Madriguera"
+        },
+        {
+          "civil": "Liebre",
+          "impostor": "Carrera"
+        },
+        {
+          "civil": "Ardilla",
+          "impostor": "Bellota"
+        },
+        {
+          "civil": "Castor",
+          "impostor": "Presa"
+        },
+        {
+          "civil": "Mapache",
+          "impostor": "Antifaz"
+        },
+        {
+          "civil": "Zarigüeya",
+          "impostor": "Hacerse el muerto"
+        },
+        {
+          "civil": "Canguro",
+          "impostor": "Bolsa"
+        },
+        {
+          "civil": "Koala",
+          "impostor": "Eucalipto"
+        },
+        {
+          "civil": "Wombat",
+          "impostor": "Australia"
+        },
+        {
+          "civil": "Perezoso",
+          "impostor": "Lento"
+        },
+        {
+          "civil": "Armadillo",
+          "impostor": "Coraza"
+        },
+        {
+          "civil": "Oso hormiguero",
+          "impostor": "Lengua larga"
+        },
+        {
+          "civil": "Camello",
+          "impostor": "Joroba"
+        },
+        {
+          "civil": "Dromedario",
+          "impostor": "Caravana"
+        },
+        {
+          "civil": "Llama",
+          "impostor": "Andes"
+        },
+        {
+          "civil": "Alpaca",
+          "impostor": "Lana suave"
+        },
+        {
+          "civil": "Bisonte",
+          "impostor": "Pradera"
+        },
+        {
+          "civil": "Búfalo",
+          "impostor": "Manada"
+        },
+        {
+          "civil": "Roble",
+          "impostor": "Bellota"
+        },
+        {
+          "civil": "Pino",
+          "impostor": "Resina"
+        },
+        {
+          "civil": "Abeto",
+          "impostor": "Navidad"
+        },
+        {
+          "civil": "Sauce",
+          "impostor": "Llorón"
+        },
+        {
+          "civil": "Olivo",
+          "impostor": "Aceite"
+        },
+        {
+          "civil": "Palmera",
+          "impostor": "Coco"
+        },
+        {
+          "civil": "Cactus",
+          "impostor": "Espina"
+        },
+        {
+          "civil": "Bambú",
+          "impostor": "Caña"
+        },
+        {
+          "civil": "Rosa",
+          "impostor": "San Valentín"
+        },
+        {
+          "civil": "Tulipán",
+          "impostor": "Holanda"
+        },
+        {
+          "civil": "Girasol",
+          "impostor": "Pipas"
+        },
+        {
+          "civil": "Margarita",
+          "impostor": "Pétalo"
+        },
+        {
+          "civil": "Orquídea",
+          "impostor": "Exótica"
+        },
+        {
+          "civil": "Lavanda",
+          "impostor": "Provenza"
+        },
+        {
+          "civil": "Hiedra",
+          "impostor": "Trepadora"
+        },
+        {
+          "civil": "Musgo",
+          "impostor": "Húmedo"
+        },
+        {
+          "civil": "Helecho",
+          "impostor": "Prehistoria"
+        },
+        {
+          "civil": "Selva",
+          "impostor": "Tarzán"
+        },
+        {
+          "civil": "Bosque",
+          "impostor": "Sendero"
+        },
+        {
+          "civil": "Desierto",
+          "impostor": "Duna"
+        },
+        {
+          "civil": "Pradera",
+          "impostor": "Hierba"
+        },
+        {
+          "civil": "Tundra",
+          "impostor": "Helado"
+        },
+        {
+          "civil": "Pantano",
+          "impostor": "Lodo"
+        },
+        {
+          "civil": "Manglar",
+          "impostor": "Raíz"
+        },
+        {
+          "civil": "Arrecife",
+          "impostor": "Coral"
+        },
+        {
+          "civil": "Volcán",
+          "impostor": "Lava"
+        },
+        {
+          "civil": "Terremoto",
+          "impostor": "Falla"
+        },
+        {
+          "civil": "Tornado",
+          "impostor": "Granja"
+        },
+        {
+          "civil": "Huracán",
+          "impostor": "Caribe"
+        },
+        {
+          "civil": "Tsunami",
+          "impostor": "Ola gigante"
+        },
+        {
+          "civil": "Avalancha",
+          "impostor": "Esquí"
+        },
+        {
+          "civil": "Inundación",
+          "impostor": "Río"
+        },
+        {
+          "civil": "Sequía",
+          "impostor": "Pozo"
+        },
+        {
+          "civil": "Arcoíris",
+          "impostor": "Lluvia"
+        },
+        {
+          "civil": "Eclipse",
+          "impostor": "Sombra"
+        },
+        {
+          "civil": "Iglú",
+          "impostor": "Pingüino"
+        },
+        {
+          "civil": "Marfil",
+          "impostor": "Elefante"
+        },
+        {
+          "civil": "Establo",
+          "impostor": "Vaca"
+        },
+        {
+          "civil": "Granja",
+          "impostor": "Cerdo"
+        },
+        {
+          "civil": "Herradura",
+          "impostor": "Caballo"
+        },
+        {
+          "civil": "Huevo",
+          "impostor": "Gallina"
+        },
+        {
+          "civil": "Plancton",
+          "impostor": "Ballena"
+        },
+        {
+          "civil": "Pinza",
+          "impostor": "Cangrejo"
+        },
+        {
+          "civil": "Caparazón",
+          "impostor": "Tortuga"
+        },
+        {
+          "civil": "Panal",
+          "impostor": "Abeja"
+        },
+        {
+          "civil": "Hormiguero",
+          "impostor": "Hormiga"
+        },
+        {
+          "civil": "Crisálida",
+          "impostor": "Mariposa"
+        },
+        {
+          "civil": "Telaraña",
+          "impostor": "Araña"
+        },
+        {
+          "civil": "Cueva",
+          "impostor": "Murciélago"
+        },
+        {
+          "civil": "Trampa",
+          "impostor": "Ratón"
+        },
+        {
+          "civil": "Madriguera",
+          "impostor": "Conejo"
+        },
+        {
+          "civil": "Eucalipto",
+          "impostor": "Koala"
+        },
+        {
+          "civil": "Joroba",
+          "impostor": "Camello"
+        },
+        {
+          "civil": "Caravana",
+          "impostor": "Dromedario"
+        },
+        {
+          "civil": "Duna",
+          "impostor": "Desierto"
+        },
+        {
+          "civil": "Coral",
+          "impostor": "Arrecife"
+        },
+        {
+          "civil": "Lava",
+          "impostor": "Volcán"
+        }
       ]
     },
     {
@@ -29,11 +1559,714 @@
       "name": "Comida y Bebida",
       "emoji": "🍕",
       "words": [
-        { "civil": "Pizza", "impostor": "Calzone" },
-        { "civil": "Sushi", "impostor": "Sashimi" },
-        { "civil": "Paella", "impostor": "Arroz" },
-        { "civil": "Hamburguesa", "impostor": "Sandwich" },
-        { "civil": "Cerveza", "impostor": "Sidra" }
+        {
+          "civil": "Pizza",
+          "impostor": "Calzone"
+        },
+        {
+          "civil": "Sushi",
+          "impostor": "Sashimi"
+        },
+        {
+          "civil": "Paella",
+          "impostor": "Azafrán"
+        },
+        {
+          "civil": "Hamburguesa",
+          "impostor": "Sándwich"
+        },
+        {
+          "civil": "Tortilla",
+          "impostor": "Cebolla"
+        },
+        {
+          "civil": "Croquetas",
+          "impostor": "Bechamel"
+        },
+        {
+          "civil": "Gazpacho",
+          "impostor": "Tomate"
+        },
+        {
+          "civil": "Salmorejo",
+          "impostor": "Córdoba"
+        },
+        {
+          "civil": "Jamón",
+          "impostor": "Bellota"
+        },
+        {
+          "civil": "Chorizo",
+          "impostor": "Pimentón"
+        },
+        {
+          "civil": "Morcilla",
+          "impostor": "Burgos"
+        },
+        {
+          "civil": "Fabada",
+          "impostor": "Asturias"
+        },
+        {
+          "civil": "Cocido",
+          "impostor": "Madrileño"
+        },
+        {
+          "civil": "Cachopo",
+          "impostor": "Empanado"
+        },
+        {
+          "civil": "Tortilla francesa",
+          "impostor": "Mantequilla"
+        },
+        {
+          "civil": "Migas",
+          "impostor": "Pastor"
+        },
+        {
+          "civil": "Pulpo a la gallega",
+          "impostor": "Pimentón dulce"
+        },
+        {
+          "civil": "Calçots",
+          "impostor": "Romesco"
+        },
+        {
+          "civil": "Pintxos",
+          "impostor": "Bilbao"
+        },
+        {
+          "civil": "Patatas bravas",
+          "impostor": "Salsa picante"
+        },
+        {
+          "civil": "Boquerones",
+          "impostor": "Vinagre"
+        },
+        {
+          "civil": "Ensaladilla rusa",
+          "impostor": "Mayonesa"
+        },
+        {
+          "civil": "Bocadillo",
+          "impostor": "Merienda"
+        },
+        {
+          "civil": "Pan",
+          "impostor": "Horno"
+        },
+        {
+          "civil": "Baguette",
+          "impostor": "Francia"
+        },
+        {
+          "civil": "Croissant",
+          "impostor": "Mantequilla"
+        },
+        {
+          "civil": "Magdalena",
+          "impostor": "Desayuno"
+        },
+        {
+          "civil": "Donut",
+          "impostor": "Glaseado"
+        },
+        {
+          "civil": "Churros",
+          "impostor": "Chocolate caliente"
+        },
+        {
+          "civil": "Porras",
+          "impostor": "Domingo"
+        },
+        {
+          "civil": "Lasaña",
+          "impostor": "Capas"
+        },
+        {
+          "civil": "Espaguetis",
+          "impostor": "Boloñesa"
+        },
+        {
+          "civil": "Macarrones",
+          "impostor": "Tubo"
+        },
+        {
+          "civil": "Ñoquis",
+          "impostor": "Patata"
+        },
+        {
+          "civil": "Risotto",
+          "impostor": "Parmesano"
+        },
+        {
+          "civil": "Carbonara",
+          "impostor": "Huevo"
+        },
+        {
+          "civil": "Tiramisú",
+          "impostor": "Mascarpone"
+        },
+        {
+          "civil": "Panna cotta",
+          "impostor": "Nata cocida"
+        },
+        {
+          "civil": "Cannoli",
+          "impostor": "Sicilia"
+        },
+        {
+          "civil": "Focaccia",
+          "impostor": "Romero"
+        },
+        {
+          "civil": "Bruschetta",
+          "impostor": "Aperitivo"
+        },
+        {
+          "civil": "Gnocchi",
+          "impostor": "Puré"
+        },
+        {
+          "civil": "Ramen",
+          "impostor": "Takoyaki"
+        },
+        {
+          "civil": "Udon",
+          "impostor": "Fideo grueso"
+        },
+        {
+          "civil": "Tempura",
+          "impostor": "Rebozado"
+        },
+        {
+          "civil": "Yakitori",
+          "impostor": "Brocheta"
+        },
+        {
+          "civil": "Onigiri",
+          "impostor": "Triángulo"
+        },
+        {
+          "civil": "Mochi",
+          "impostor": "Arroz dulce"
+        },
+        {
+          "civil": "Wasabi",
+          "impostor": "Verde picante"
+        },
+        {
+          "civil": "Edamame",
+          "impostor": "Vaina"
+        },
+        {
+          "civil": "Dim sum",
+          "impostor": "Bambú"
+        },
+        {
+          "civil": "Pad thai",
+          "impostor": "Cacahuete"
+        },
+        {
+          "civil": "Curry",
+          "impostor": "India"
+        },
+        {
+          "civil": "Naan",
+          "impostor": "Tandoori"
+        },
+        {
+          "civil": "Falafel",
+          "impostor": "Garbanzo"
+        },
+        {
+          "civil": "Hummus",
+          "impostor": "Tahini"
+        },
+        {
+          "civil": "Kebab",
+          "impostor": "Pita"
+        },
+        {
+          "civil": "Cuscús",
+          "impostor": "Marruecos"
+        },
+        {
+          "civil": "Tagine",
+          "impostor": "Barro"
+        },
+        {
+          "civil": "Tacos",
+          "impostor": "Lima"
+        },
+        {
+          "civil": "Burrito",
+          "impostor": "Tortilla de trigo"
+        },
+        {
+          "civil": "Quesadilla",
+          "impostor": "Plancha"
+        },
+        {
+          "civil": "Enchiladas",
+          "impostor": "Salsa roja"
+        },
+        {
+          "civil": "Guacamole",
+          "impostor": "Aguacate"
+        },
+        {
+          "civil": "Nachos",
+          "impostor": "Cine"
+        },
+        {
+          "civil": "Fajitas",
+          "impostor": "Sartén caliente"
+        },
+        {
+          "civil": "Tamales",
+          "impostor": "Hoja de maíz"
+        },
+        {
+          "civil": "Ceviche",
+          "impostor": "Lima"
+        },
+        {
+          "civil": "Empanada",
+          "impostor": "Argentina"
+        },
+        {
+          "civil": "Asado",
+          "impostor": "Parrilla"
+        },
+        {
+          "civil": "Arepa",
+          "impostor": "Maíz"
+        },
+        {
+          "civil": "Mojito",
+          "impostor": "Hierbabuena"
+        },
+        {
+          "civil": "Caipirinha",
+          "impostor": "Cachaça"
+        },
+        {
+          "civil": "Margarita",
+          "impostor": "Sal en el borde"
+        },
+        {
+          "civil": "Piña colada",
+          "impostor": "Coco"
+        },
+        {
+          "civil": "Sangría",
+          "impostor": "Frutas"
+        },
+        {
+          "civil": "Tinto de verano",
+          "impostor": "Gaseosa"
+        },
+        {
+          "civil": "Vermut",
+          "impostor": "Aperitivo"
+        },
+        {
+          "civil": "Whisky",
+          "impostor": "Roca"
+        },
+        {
+          "civil": "Ron",
+          "impostor": "Pirata"
+        },
+        {
+          "civil": "Vodka",
+          "impostor": "Rusia"
+        },
+        {
+          "civil": "Tequila",
+          "impostor": "Limón y sal"
+        },
+        {
+          "civil": "Ginebra",
+          "impostor": "Tónica"
+        },
+        {
+          "civil": "Champán",
+          "impostor": "Brindis"
+        },
+        {
+          "civil": "Cava",
+          "impostor": "Cataluña"
+        },
+        {
+          "civil": "Sidra",
+          "impostor": "Escanciar"
+        },
+        {
+          "civil": "Vino tinto",
+          "impostor": "Crianza"
+        },
+        {
+          "civil": "Vino blanco",
+          "impostor": "Albariño"
+        },
+        {
+          "civil": "Cerveza",
+          "impostor": "Espuma"
+        },
+        {
+          "civil": "Café",
+          "impostor": "Cafeína"
+        },
+        {
+          "civil": "Capuchino",
+          "impostor": "Espuma de leche"
+        },
+        {
+          "civil": "Latte",
+          "impostor": "Vaso alto"
+        },
+        {
+          "civil": "Té verde",
+          "impostor": "Antioxidante"
+        },
+        {
+          "civil": "Té negro",
+          "impostor": "Inglaterra"
+        },
+        {
+          "civil": "Manzanilla",
+          "impostor": "Estómago"
+        },
+        {
+          "civil": "Chocolate caliente",
+          "impostor": "Invierno"
+        },
+        {
+          "civil": "Zumo de naranja",
+          "impostor": "Vitamina C"
+        },
+        {
+          "civil": "Limonada",
+          "impostor": "Verano"
+        },
+        {
+          "civil": "Horchata",
+          "impostor": "Chufa"
+        },
+        {
+          "civil": "Coca-Cola",
+          "impostor": "Burbujas"
+        },
+        {
+          "civil": "Fanta",
+          "impostor": "Naranja"
+        },
+        {
+          "civil": "Agua mineral",
+          "impostor": "Hidratación"
+        },
+        {
+          "civil": "Manzana",
+          "impostor": "Newton"
+        },
+        {
+          "civil": "Pera",
+          "impostor": "Compota"
+        },
+        {
+          "civil": "Plátano",
+          "impostor": "Resbalón"
+        },
+        {
+          "civil": "Naranja",
+          "impostor": "Valencia"
+        },
+        {
+          "civil": "Mandarina",
+          "impostor": "Gajo"
+        },
+        {
+          "civil": "Limón",
+          "impostor": "Ácido"
+        },
+        {
+          "civil": "Pomelo",
+          "impostor": "Amargo"
+        },
+        {
+          "civil": "Uva",
+          "impostor": "Nochevieja"
+        },
+        {
+          "civil": "Fresa",
+          "impostor": "Nata"
+        },
+        {
+          "civil": "Cereza",
+          "impostor": "Hueso"
+        },
+        {
+          "civil": "Melocotón",
+          "impostor": "Almíbar"
+        },
+        {
+          "civil": "Albaricoque",
+          "impostor": "Mermelada"
+        },
+        {
+          "civil": "Ciruela",
+          "impostor": "Pasa"
+        },
+        {
+          "civil": "Sandía",
+          "impostor": "Pepita"
+        },
+        {
+          "civil": "Melón",
+          "impostor": "Jamón"
+        },
+        {
+          "civil": "Piña",
+          "impostor": "Hawaii"
+        },
+        {
+          "civil": "Mango",
+          "impostor": "Tropical"
+        },
+        {
+          "civil": "Papaya",
+          "impostor": "Caribe"
+        },
+        {
+          "civil": "Kiwi",
+          "impostor": "Nueva Zelanda"
+        },
+        {
+          "civil": "Coco",
+          "impostor": "Palmera"
+        },
+        {
+          "civil": "Aguacate",
+          "impostor": "Tostada"
+        },
+        {
+          "civil": "Tomate",
+          "impostor": "Ensalada"
+        },
+        {
+          "civil": "Lechuga",
+          "impostor": "Hoja verde"
+        },
+        {
+          "civil": "Pepino",
+          "impostor": "Refrescante"
+        },
+        {
+          "civil": "Zanahoria",
+          "impostor": "Conejo"
+        },
+        {
+          "civil": "Patata",
+          "impostor": "Frita"
+        },
+        {
+          "civil": "Cebolla",
+          "impostor": "Lágrima"
+        },
+        {
+          "civil": "Ajo",
+          "impostor": "Vampiro"
+        },
+        {
+          "civil": "Pimiento",
+          "impostor": "Rojo"
+        },
+        {
+          "civil": "Berenjena",
+          "impostor": "Morada"
+        },
+        {
+          "civil": "Calabacín",
+          "impostor": "Crema"
+        },
+        {
+          "civil": "Calabaza",
+          "impostor": "Halloween"
+        },
+        {
+          "civil": "Espinacas",
+          "impostor": "Popeye"
+        },
+        {
+          "civil": "Brócoli",
+          "impostor": "Arbolito"
+        },
+        {
+          "civil": "Coliflor",
+          "impostor": "Vapor"
+        },
+        {
+          "civil": "Alcachofa",
+          "impostor": "Hojas"
+        },
+        {
+          "civil": "Espárragos",
+          "impostor": "Blancos"
+        },
+        {
+          "civil": "Champiñón",
+          "impostor": "Plancha"
+        },
+        {
+          "civil": "Setas",
+          "impostor": "Otoño"
+        },
+        {
+          "civil": "Aceitunas",
+          "impostor": "Hueso"
+        },
+        {
+          "civil": "Helado",
+          "impostor": "Cucurucho"
+        },
+        {
+          "civil": "Tarta de queso",
+          "impostor": "Mermelada de fresa"
+        },
+        {
+          "civil": "Brownie",
+          "impostor": "Nuez"
+        },
+        {
+          "civil": "Cookie",
+          "impostor": "Pepitas de chocolate"
+        },
+        {
+          "civil": "Flan",
+          "impostor": "Caramelo"
+        },
+        {
+          "civil": "Natillas",
+          "impostor": "Galleta"
+        },
+        {
+          "civil": "Arroz con leche",
+          "impostor": "Canela"
+        },
+        {
+          "civil": "Leche frita",
+          "impostor": "Cuaresma"
+        },
+        {
+          "civil": "Roscón",
+          "impostor": "Reyes"
+        },
+        {
+          "civil": "Polvorones",
+          "impostor": "Navidad"
+        },
+        {
+          "civil": "Turrón",
+          "impostor": "Almendra"
+        },
+        {
+          "civil": "Calzone",
+          "impostor": "Pizza"
+        },
+        {
+          "civil": "Sashimi",
+          "impostor": "Sushi"
+        },
+        {
+          "civil": "Sándwich",
+          "impostor": "Hamburguesa"
+        },
+        {
+          "civil": "Bechamel",
+          "impostor": "Croquetas"
+        },
+        {
+          "civil": "Pimentón",
+          "impostor": "Chorizo"
+        },
+        {
+          "civil": "Vinagre",
+          "impostor": "Boquerones"
+        },
+        {
+          "civil": "Mayonesa",
+          "impostor": "Ensaladilla rusa"
+        },
+        {
+          "civil": "Merienda",
+          "impostor": "Bocadillo"
+        },
+        {
+          "civil": "Glaseado",
+          "impostor": "Donut"
+        },
+        {
+          "civil": "Parmesano",
+          "impostor": "Risotto"
+        },
+        {
+          "civil": "Mascarpone",
+          "impostor": "Tiramisú"
+        },
+        {
+          "civil": "Romero",
+          "impostor": "Focaccia"
+        },
+        {
+          "civil": "Takoyaki",
+          "impostor": "Ramen"
+        },
+        {
+          "civil": "Tandoori",
+          "impostor": "Naan"
+        },
+        {
+          "civil": "Tahini",
+          "impostor": "Hummus"
+        },
+        {
+          "civil": "Pita",
+          "impostor": "Kebab"
+        },
+        {
+          "civil": "Parrilla",
+          "impostor": "Asado"
+        },
+        {
+          "civil": "Hierbabuena",
+          "impostor": "Mojito"
+        },
+        {
+          "civil": "Tónica",
+          "impostor": "Ginebra"
+        },
+        {
+          "civil": "Brindis",
+          "impostor": "Champán"
+        },
+        {
+          "civil": "Ensalada",
+          "impostor": "Tomate"
+        },
+        {
+          "civil": "Caramelo",
+          "impostor": "Flan"
+        },
+        {
+          "civil": "Canela",
+          "impostor": "Arroz con leche"
+        },
+        {
+          "civil": "Almendra",
+          "impostor": "Turrón"
+        }
       ]
     },
     {
@@ -41,11 +2274,666 @@
       "name": "Deportes",
       "emoji": "⚽",
       "words": [
-        { "civil": "Fútbol", "impostor": "Balonmano" },
-        { "civil": "Tenis", "impostor": "Pádel" },
-        { "civil": "Baloncesto", "impostor": "Voleibol" },
-        { "civil": "Natación", "impostor": "Buceo" },
-        { "civil": "Boxeo", "impostor": "Karate" }
+        {
+          "civil": "Fútbol",
+          "impostor": "Balonmano"
+        },
+        {
+          "civil": "Tenis",
+          "impostor": "Pádel"
+        },
+        {
+          "civil": "Baloncesto",
+          "impostor": "Voleibol"
+        },
+        {
+          "civil": "Natación",
+          "impostor": "Buceo"
+        },
+        {
+          "civil": "Boxeo",
+          "impostor": "Karate"
+        },
+        {
+          "civil": "Fútbol sala",
+          "impostor": "Polideportivo"
+        },
+        {
+          "civil": "Rugby",
+          "impostor": "Placaje"
+        },
+        {
+          "civil": "Béisbol",
+          "impostor": "Bate"
+        },
+        {
+          "civil": "Hockey hierba",
+          "impostor": "Stick"
+        },
+        {
+          "civil": "Hockey hielo",
+          "impostor": "Disco"
+        },
+        {
+          "civil": "Waterpolo",
+          "impostor": "Gorro"
+        },
+        {
+          "civil": "Bádminton",
+          "impostor": "Volante"
+        },
+        {
+          "civil": "Ping pong",
+          "impostor": "Mesa"
+        },
+        {
+          "civil": "Squash",
+          "impostor": "Cristal"
+        },
+        {
+          "civil": "Frontón",
+          "impostor": "Pelota vasca"
+        },
+        {
+          "civil": "Surf",
+          "impostor": "Tabla"
+        },
+        {
+          "civil": "Windsurf",
+          "impostor": "Vela"
+        },
+        {
+          "civil": "Kitesurf",
+          "impostor": "Cometa"
+        },
+        {
+          "civil": "Vela",
+          "impostor": "Regata"
+        },
+        {
+          "civil": "Remo",
+          "impostor": "Trainera"
+        },
+        {
+          "civil": "Piragüismo",
+          "impostor": "Río"
+        },
+        {
+          "civil": "Esquí",
+          "impostor": "Nieve"
+        },
+        {
+          "civil": "Snowboard",
+          "impostor": "Halfpipe"
+        },
+        {
+          "civil": "Patinaje sobre hielo",
+          "impostor": "Pirueta"
+        },
+        {
+          "civil": "Patinaje artístico",
+          "impostor": "Coreografía"
+        },
+        {
+          "civil": "Patinaje velocidad",
+          "impostor": "Pista oval"
+        },
+        {
+          "civil": "Hockey patines",
+          "impostor": "Stick curvo"
+        },
+        {
+          "civil": "Ciclismo",
+          "impostor": "Tour de Francia"
+        },
+        {
+          "civil": "BMX",
+          "impostor": "Salto"
+        },
+        {
+          "civil": "Mountain bike",
+          "impostor": "Sendero"
+        },
+        {
+          "civil": "Atletismo",
+          "impostor": "Pista"
+        },
+        {
+          "civil": "100 metros lisos",
+          "impostor": "Velocista"
+        },
+        {
+          "civil": "Maratón",
+          "impostor": "42 kilómetros"
+        },
+        {
+          "civil": "Salto de altura",
+          "impostor": "Listón"
+        },
+        {
+          "civil": "Salto con pértiga",
+          "impostor": "Vara"
+        },
+        {
+          "civil": "Salto de longitud",
+          "impostor": "Foso de arena"
+        },
+        {
+          "civil": "Triple salto",
+          "impostor": "Tres tiempos"
+        },
+        {
+          "civil": "Lanzamiento de peso",
+          "impostor": "Bola pesada"
+        },
+        {
+          "civil": "Lanzamiento de jabalina",
+          "impostor": "Lanza"
+        },
+        {
+          "civil": "Lanzamiento de disco",
+          "impostor": "Giro"
+        },
+        {
+          "civil": "Lanzamiento de martillo",
+          "impostor": "Cable"
+        },
+        {
+          "civil": "Vallas",
+          "impostor": "Obstáculo"
+        },
+        {
+          "civil": "Decatlón",
+          "impostor": "Diez pruebas"
+        },
+        {
+          "civil": "Triatlón",
+          "impostor": "Tres disciplinas"
+        },
+        {
+          "civil": "Judo",
+          "impostor": "Tatami"
+        },
+        {
+          "civil": "Taekwondo",
+          "impostor": "Patada"
+        },
+        {
+          "civil": "Kárate",
+          "impostor": "Cinturón negro"
+        },
+        {
+          "civil": "Kung fu",
+          "impostor": "Bruce Lee"
+        },
+        {
+          "civil": "Aikido",
+          "impostor": "Defensa"
+        },
+        {
+          "civil": "Esgrima",
+          "impostor": "Florete"
+        },
+        {
+          "civil": "Lucha libre",
+          "impostor": "Llave"
+        },
+        {
+          "civil": "Lucha grecorromana",
+          "impostor": "Olimpiadas"
+        },
+        {
+          "civil": "MMA",
+          "impostor": "UFC"
+        },
+        {
+          "civil": "Kickboxing",
+          "impostor": "Guantes"
+        },
+        {
+          "civil": "Muay Thai",
+          "impostor": "Tailandia"
+        },
+        {
+          "civil": "Capoeira",
+          "impostor": "Brasil"
+        },
+        {
+          "civil": "Sumo",
+          "impostor": "Japón"
+        },
+        {
+          "civil": "Halterofilia",
+          "impostor": "Levantamiento"
+        },
+        {
+          "civil": "Powerlifting",
+          "impostor": "Sentadilla"
+        },
+        {
+          "civil": "Crossfit",
+          "impostor": "WOD"
+        },
+        {
+          "civil": "Calistenia",
+          "impostor": "Peso corporal"
+        },
+        {
+          "civil": "Yoga",
+          "impostor": "Esterilla"
+        },
+        {
+          "civil": "Pilates",
+          "impostor": "Core"
+        },
+        {
+          "civil": "Zumba",
+          "impostor": "Baile"
+        },
+        {
+          "civil": "Spinning",
+          "impostor": "Bicicleta estática"
+        },
+        {
+          "civil": "Escalada",
+          "impostor": "Cuerda"
+        },
+        {
+          "civil": "Senderismo",
+          "impostor": "Mochila"
+        },
+        {
+          "civil": "Montañismo",
+          "impostor": "Cumbre"
+        },
+        {
+          "civil": "Espeleología",
+          "impostor": "Cueva"
+        },
+        {
+          "civil": "Parapente",
+          "impostor": "Vuelo libre"
+        },
+        {
+          "civil": "Paracaidismo",
+          "impostor": "Avión"
+        },
+        {
+          "civil": "Puenting",
+          "impostor": "Cuerda elástica"
+        },
+        {
+          "civil": "Salto base",
+          "impostor": "Acantilado"
+        },
+        {
+          "civil": "Skate",
+          "impostor": "Rampa"
+        },
+        {
+          "civil": "Longboard",
+          "impostor": "Bajada"
+        },
+        {
+          "civil": "Patinete",
+          "impostor": "Acera"
+        },
+        {
+          "civil": "Roller",
+          "impostor": "Cuatro ruedas"
+        },
+        {
+          "civil": "Golf",
+          "impostor": "Hoyo 19"
+        },
+        {
+          "civil": "Minigolf",
+          "impostor": "Molino"
+        },
+        {
+          "civil": "Polo",
+          "impostor": "Caballo"
+        },
+        {
+          "civil": "Hípica",
+          "impostor": "Salto de obstáculos"
+        },
+        {
+          "civil": "Doma clásica",
+          "impostor": "Equitación"
+        },
+        {
+          "civil": "Tiro con arco",
+          "impostor": "Diana"
+        },
+        {
+          "civil": "Tiro olímpico",
+          "impostor": "Pistola de aire"
+        },
+        {
+          "civil": "Dardos",
+          "impostor": "Pub"
+        },
+        {
+          "civil": "Bolos",
+          "impostor": "Strike"
+        },
+        {
+          "civil": "Petanca",
+          "impostor": "Boliche"
+        },
+        {
+          "civil": "Curling",
+          "impostor": "Escoba"
+        },
+        {
+          "civil": "Ajedrez",
+          "impostor": "Jaque mate"
+        },
+        {
+          "civil": "Damas",
+          "impostor": "Tablero"
+        },
+        {
+          "civil": "Póker",
+          "impostor": "Farol"
+        },
+        {
+          "civil": "Billar",
+          "impostor": "Taco"
+        },
+        {
+          "civil": "Snooker",
+          "impostor": "Mesa verde"
+        },
+        {
+          "civil": "F1",
+          "impostor": "Pit stop"
+        },
+        {
+          "civil": "MotoGP",
+          "impostor": "Casco"
+        },
+        {
+          "civil": "Rally",
+          "impostor": "Copiloto"
+        },
+        {
+          "civil": "Karts",
+          "impostor": "Circuito"
+        },
+        {
+          "civil": "Motocross",
+          "impostor": "Salto"
+        },
+        {
+          "civil": "Trial",
+          "impostor": "Equilibrio"
+        },
+        {
+          "civil": "Drift",
+          "impostor": "Derrape"
+        },
+        {
+          "civil": "NASCAR",
+          "impostor": "Óvalo"
+        },
+        {
+          "civil": "Le Mans",
+          "impostor": "24 horas"
+        },
+        {
+          "civil": "Olimpiadas",
+          "impostor": "Antorcha"
+        },
+        {
+          "civil": "Mundial",
+          "impostor": "Trofeo"
+        },
+        {
+          "civil": "Eurocopa",
+          "impostor": "UEFA"
+        },
+        {
+          "civil": "Champions League",
+          "impostor": "Himno"
+        },
+        {
+          "civil": "Copa del Rey",
+          "impostor": "Final"
+        },
+        {
+          "civil": "Roland Garros",
+          "impostor": "Tierra batida"
+        },
+        {
+          "civil": "Wimbledon",
+          "impostor": "Hierba"
+        },
+        {
+          "civil": "US Open",
+          "impostor": "Nueva York"
+        },
+        {
+          "civil": "Australian Open",
+          "impostor": "Melbourne"
+        },
+        {
+          "civil": "Tour de Francia",
+          "impostor": "Maillot amarillo"
+        },
+        {
+          "civil": "Vuelta a España",
+          "impostor": "Maillot rojo"
+        },
+        {
+          "civil": "Giro de Italia",
+          "impostor": "Maglia rosa"
+        },
+        {
+          "civil": "Super Bowl",
+          "impostor": "Anuncios"
+        },
+        {
+          "civil": "NBA",
+          "impostor": "Triple"
+        },
+        {
+          "civil": "NFL",
+          "impostor": "Touchdown"
+        },
+        {
+          "civil": "NHL",
+          "impostor": "Stanley Cup"
+        },
+        {
+          "civil": "MLB",
+          "impostor": "Home run"
+        },
+        {
+          "civil": "Estadio",
+          "impostor": "Grada"
+        },
+        {
+          "civil": "Pabellón",
+          "impostor": "Cubierta"
+        },
+        {
+          "civil": "Pista de atletismo",
+          "impostor": "Tartán"
+        },
+        {
+          "civil": "Piscina olímpica",
+          "impostor": "Calle"
+        },
+        {
+          "civil": "Velódromo",
+          "impostor": "Curva inclinada"
+        },
+        {
+          "civil": "Hipódromo",
+          "impostor": "Apuesta"
+        },
+        {
+          "civil": "Ring",
+          "impostor": "Cuerdas"
+        },
+        {
+          "civil": "Tatami",
+          "impostor": "Saludo"
+        },
+        {
+          "civil": "Cancha",
+          "impostor": "Línea"
+        },
+        {
+          "civil": "Portería",
+          "impostor": "Larguero"
+        },
+        {
+          "civil": "Canasta",
+          "impostor": "Aro"
+        },
+        {
+          "civil": "Red",
+          "impostor": "Saque"
+        },
+        {
+          "civil": "Banderín de córner",
+          "impostor": "Esquina"
+        },
+        {
+          "civil": "Árbitro",
+          "impostor": "Silbato"
+        },
+        {
+          "civil": "Entrenador",
+          "impostor": "Pizarra"
+        },
+        {
+          "civil": "Mascota",
+          "impostor": "Disfraz"
+        },
+        {
+          "civil": "Hincha",
+          "impostor": "Bufanda"
+        },
+        {
+          "civil": "Trofeo",
+          "impostor": "Vitrina"
+        },
+        {
+          "civil": "Medalla",
+          "impostor": "Podio"
+        },
+        {
+          "civil": "Pelota",
+          "impostor": "Esférico"
+        },
+        {
+          "civil": "Balón",
+          "impostor": "Pentágono"
+        },
+        {
+          "civil": "Raqueta",
+          "impostor": "Cordaje"
+        },
+        {
+          "civil": "Bate",
+          "impostor": "Madera"
+        },
+        {
+          "civil": "Palo de golf",
+          "impostor": "Hierro"
+        },
+        {
+          "civil": "Casco",
+          "impostor": "Protección"
+        },
+        {
+          "civil": "Espinilleras",
+          "impostor": "Pierna"
+        },
+        {
+          "civil": "Guante de boxeo",
+          "impostor": "Vendaje"
+        },
+        {
+          "civil": "Bañador deportivo",
+          "impostor": "Aerodinámico"
+        },
+        {
+          "civil": "Zapatillas",
+          "impostor": "Cordones"
+        },
+        {
+          "civil": "Tacos",
+          "impostor": "Hierba"
+        },
+        {
+          "civil": "Cinta de correr",
+          "impostor": "Gimnasio"
+        },
+        {
+          "civil": "Mancuernas",
+          "impostor": "Bíceps"
+        },
+        {
+          "civil": "Saco de boxeo",
+          "impostor": "Puñetazo"
+        },
+        {
+          "civil": "Comba",
+          "impostor": "Saltar"
+        },
+        {
+          "civil": "Balonmano",
+          "impostor": "Fútbol"
+        },
+        {
+          "civil": "Pádel",
+          "impostor": "Tenis"
+        },
+        {
+          "civil": "Voleibol",
+          "impostor": "Baloncesto"
+        },
+        {
+          "civil": "Buceo",
+          "impostor": "Natación"
+        },
+        {
+          "civil": "Karate",
+          "impostor": "Boxeo"
+        },
+        {
+          "civil": "Volante",
+          "impostor": "Bádminton"
+        },
+        {
+          "civil": "Lanza",
+          "impostor": "Lanzamiento de jabalina"
+        },
+        {
+          "civil": "Florete",
+          "impostor": "Esgrima"
+        },
+        {
+          "civil": "UFC",
+          "impostor": "MMA"
+        },
+        {
+          "civil": "Esterilla",
+          "impostor": "Yoga"
+        },
+        {
+          "civil": "Diana",
+          "impostor": "Tiro con arco"
+        },
+        {
+          "civil": "Gimnasio",
+          "impostor": "Cinta de correr"
+        }
       ]
     },
     {
@@ -53,11 +2941,694 @@
       "name": "Tecnología",
       "emoji": "💻",
       "words": [
-        { "civil": "Teclado", "impostor": "Ratón" },
-        { "civil": "Móvil", "impostor": "Tablet" },
-        { "civil": "Wi-Fi", "impostor": "Bluetooth" },
-        { "civil": "Auriculares", "impostor": "Altavoz" },
-        { "civil": "Cargador", "impostor": "Batería" }
+        {
+          "civil": "Teclado",
+          "impostor": "Ratón"
+        },
+        {
+          "civil": "Móvil",
+          "impostor": "Tablet"
+        },
+        {
+          "civil": "Wi-Fi",
+          "impostor": "Bluetooth"
+        },
+        {
+          "civil": "Auriculares",
+          "impostor": "Altavoz"
+        },
+        {
+          "civil": "Cargador",
+          "impostor": "Batería"
+        },
+        {
+          "civil": "Ordenador portátil",
+          "impostor": "Maletín"
+        },
+        {
+          "civil": "Ordenador de mesa",
+          "impostor": "Torre"
+        },
+        {
+          "civil": "Monitor",
+          "impostor": "Pantalla"
+        },
+        {
+          "civil": "Webcam",
+          "impostor": "Videollamada"
+        },
+        {
+          "civil": "Micrófono",
+          "impostor": "Podcast"
+        },
+        {
+          "civil": "Impresora",
+          "impostor": "Tóner"
+        },
+        {
+          "civil": "Escáner",
+          "impostor": "Documento"
+        },
+        {
+          "civil": "Router",
+          "impostor": "Antena"
+        },
+        {
+          "civil": "Disco duro",
+          "impostor": "Almacenamiento"
+        },
+        {
+          "civil": "SSD",
+          "impostor": "Velocidad"
+        },
+        {
+          "civil": "USB",
+          "impostor": "Puerto"
+        },
+        {
+          "civil": "Memoria RAM",
+          "impostor": "Procesador"
+        },
+        {
+          "civil": "Tarjeta gráfica",
+          "impostor": "Videojuego"
+        },
+        {
+          "civil": "Placa base",
+          "impostor": "Circuito"
+        },
+        {
+          "civil": "Refrigeración líquida",
+          "impostor": "Temperatura"
+        },
+        {
+          "civil": "Smartwatch",
+          "impostor": "Pulsera"
+        },
+        {
+          "civil": "Reloj inteligente",
+          "impostor": "Notificación"
+        },
+        {
+          "civil": "Pulsómetro",
+          "impostor": "Carrera"
+        },
+        {
+          "civil": "Smart TV",
+          "impostor": "Mando"
+        },
+        {
+          "civil": "Chromecast",
+          "impostor": "Casting"
+        },
+        {
+          "civil": "Apple TV",
+          "impostor": "Caja negra"
+        },
+        {
+          "civil": "Drone",
+          "impostor": "Hélice"
+        },
+        {
+          "civil": "GoPro",
+          "impostor": "Aventura"
+        },
+        {
+          "civil": "Cámara réflex",
+          "impostor": "Objetivo"
+        },
+        {
+          "civil": "Trípode",
+          "impostor": "Fotografía"
+        },
+        {
+          "civil": "Realidad virtual",
+          "impostor": "Inmersión"
+        },
+        {
+          "civil": "Realidad aumentada",
+          "impostor": "Filtro"
+        },
+        {
+          "civil": "Metaverso",
+          "impostor": "Avatar"
+        },
+        {
+          "civil": "Inteligencia artificial",
+          "impostor": "Algoritmo"
+        },
+        {
+          "civil": "ChatGPT",
+          "impostor": "OpenAI"
+        },
+        {
+          "civil": "Claude",
+          "impostor": "Anthropic"
+        },
+        {
+          "civil": "Gemini",
+          "impostor": "Google"
+        },
+        {
+          "civil": "Copilot",
+          "impostor": "Asistente"
+        },
+        {
+          "civil": "Stable Diffusion",
+          "impostor": "Imagen generada"
+        },
+        {
+          "civil": "DALL-E",
+          "impostor": "Surrealismo"
+        },
+        {
+          "civil": "Midjourney",
+          "impostor": "Discord"
+        },
+        {
+          "civil": "Machine Learning",
+          "impostor": "Modelo"
+        },
+        {
+          "civil": "Deep Learning",
+          "impostor": "Red neuronal"
+        },
+        {
+          "civil": "Big Data",
+          "impostor": "Información masiva"
+        },
+        {
+          "civil": "Cloud computing",
+          "impostor": "Servidor remoto"
+        },
+        {
+          "civil": "AWS",
+          "impostor": "Amazon"
+        },
+        {
+          "civil": "Azure",
+          "impostor": "Microsoft"
+        },
+        {
+          "civil": "Google Cloud",
+          "impostor": "GCP"
+        },
+        {
+          "civil": "Docker",
+          "impostor": "Contenedor"
+        },
+        {
+          "civil": "Kubernetes",
+          "impostor": "Orquestación"
+        },
+        {
+          "civil": "GitHub",
+          "impostor": "Repositorio"
+        },
+        {
+          "civil": "GitLab",
+          "impostor": "DevOps"
+        },
+        {
+          "civil": "Stack Overflow",
+          "impostor": "Pregunta"
+        },
+        {
+          "civil": "Linux",
+          "impostor": "Pingüino"
+        },
+        {
+          "civil": "Windows",
+          "impostor": "Microsoft"
+        },
+        {
+          "civil": "macOS",
+          "impostor": "Manzana"
+        },
+        {
+          "civil": "Android",
+          "impostor": "Robot verde"
+        },
+        {
+          "civil": "iOS",
+          "impostor": "iPhone"
+        },
+        {
+          "civil": "Ubuntu",
+          "impostor": "Distribución"
+        },
+        {
+          "civil": "Debian",
+          "impostor": "Estabilidad"
+        },
+        {
+          "civil": "Java",
+          "impostor": "Café"
+        },
+        {
+          "civil": "Python",
+          "impostor": "Serpiente"
+        },
+        {
+          "civil": "JavaScript",
+          "impostor": "Navegador"
+        },
+        {
+          "civil": "TypeScript",
+          "impostor": "Tipado"
+        },
+        {
+          "civil": "Kotlin",
+          "impostor": "Android Studio"
+        },
+        {
+          "civil": "Swift",
+          "impostor": "Apple"
+        },
+        {
+          "civil": "C++",
+          "impostor": "Bajo nivel"
+        },
+        {
+          "civil": "C#",
+          "impostor": "Visual Studio"
+        },
+        {
+          "civil": "Rust",
+          "impostor": "Memoria segura"
+        },
+        {
+          "civil": "Go",
+          "impostor": "Concurrencia"
+        },
+        {
+          "civil": "PHP",
+          "impostor": "WordPress"
+        },
+        {
+          "civil": "Ruby",
+          "impostor": "Rails"
+        },
+        {
+          "civil": "SQL",
+          "impostor": "Base de datos"
+        },
+        {
+          "civil": "MongoDB",
+          "impostor": "Documento JSON"
+        },
+        {
+          "civil": "PostgreSQL",
+          "impostor": "Elefante"
+        },
+        {
+          "civil": "MySQL",
+          "impostor": "Delfín"
+        },
+        {
+          "civil": "Redis",
+          "impostor": "Caché"
+        },
+        {
+          "civil": "API",
+          "impostor": "Endpoint"
+        },
+        {
+          "civil": "REST",
+          "impostor": "HTTP"
+        },
+        {
+          "civil": "GraphQL",
+          "impostor": "Consulta flexible"
+        },
+        {
+          "civil": "JSON",
+          "impostor": "Llaves"
+        },
+        {
+          "civil": "XML",
+          "impostor": "Etiqueta"
+        },
+        {
+          "civil": "HTML",
+          "impostor": "Página web"
+        },
+        {
+          "civil": "CSS",
+          "impostor": "Estilo"
+        },
+        {
+          "civil": "React",
+          "impostor": "Componente"
+        },
+        {
+          "civil": "Vue",
+          "impostor": "Progresivo"
+        },
+        {
+          "civil": "Angular",
+          "impostor": "Google"
+        },
+        {
+          "civil": "Next.js",
+          "impostor": "Vercel"
+        },
+        {
+          "civil": "Node.js",
+          "impostor": "Servidor JavaScript"
+        },
+        {
+          "civil": "Express",
+          "impostor": "Backend"
+        },
+        {
+          "civil": "Django",
+          "impostor": "Python web"
+        },
+        {
+          "civil": "Spring Boot",
+          "impostor": "Java empresarial"
+        },
+        {
+          "civil": "Flutter",
+          "impostor": "Multiplataforma"
+        },
+        {
+          "civil": "React Native",
+          "impostor": "Móvil híbrido"
+        },
+        {
+          "civil": "Unity",
+          "impostor": "Motor de juego"
+        },
+        {
+          "civil": "Unreal Engine",
+          "impostor": "Gráficos AAA"
+        },
+        {
+          "civil": "Blender",
+          "impostor": "3D"
+        },
+        {
+          "civil": "Photoshop",
+          "impostor": "Capa"
+        },
+        {
+          "civil": "Illustrator",
+          "impostor": "Vector"
+        },
+        {
+          "civil": "Figma",
+          "impostor": "Diseño UI"
+        },
+        {
+          "civil": "Adobe XD",
+          "impostor": "Prototipo"
+        },
+        {
+          "civil": "Office",
+          "impostor": "Word"
+        },
+        {
+          "civil": "Excel",
+          "impostor": "Hoja de cálculo"
+        },
+        {
+          "civil": "PowerPoint",
+          "impostor": "Diapositiva"
+        },
+        {
+          "civil": "Google Docs",
+          "impostor": "Colaboración"
+        },
+        {
+          "civil": "Notion",
+          "impostor": "Bloque"
+        },
+        {
+          "civil": "Slack",
+          "impostor": "Canal"
+        },
+        {
+          "civil": "Discord",
+          "impostor": "Servidor"
+        },
+        {
+          "civil": "WhatsApp",
+          "impostor": "Doble check"
+        },
+        {
+          "civil": "Telegram",
+          "impostor": "Avión de papel"
+        },
+        {
+          "civil": "Instagram",
+          "impostor": "Reel"
+        },
+        {
+          "civil": "TikTok",
+          "impostor": "Vídeo corto"
+        },
+        {
+          "civil": "YouTube",
+          "impostor": "Suscriptor"
+        },
+        {
+          "civil": "Twitter",
+          "impostor": "X"
+        },
+        {
+          "civil": "Facebook",
+          "impostor": "Meta"
+        },
+        {
+          "civil": "LinkedIn",
+          "impostor": "Curriculum"
+        },
+        {
+          "civil": "Reddit",
+          "impostor": "Subreddit"
+        },
+        {
+          "civil": "Twitch",
+          "impostor": "Streamer"
+        },
+        {
+          "civil": "Spotify",
+          "impostor": "Playlist"
+        },
+        {
+          "civil": "Netflix",
+          "impostor": "Tudum"
+        },
+        {
+          "civil": "Disney+",
+          "impostor": "Ratón Mickey"
+        },
+        {
+          "civil": "HBO",
+          "impostor": "Casa del dragón"
+        },
+        {
+          "civil": "Amazon Prime",
+          "impostor": "Carrito"
+        },
+        {
+          "civil": "Apple Music",
+          "impostor": "Lossless"
+        },
+        {
+          "civil": "Google Maps",
+          "impostor": "Ruta"
+        },
+        {
+          "civil": "Waze",
+          "impostor": "Atasco"
+        },
+        {
+          "civil": "Uber",
+          "impostor": "VTC"
+        },
+        {
+          "civil": "Cabify",
+          "impostor": "Conductor"
+        },
+        {
+          "civil": "Tinder",
+          "impostor": "Match"
+        },
+        {
+          "civil": "Bumble",
+          "impostor": "Abeja"
+        },
+        {
+          "civil": "Steam",
+          "impostor": "Rebajas"
+        },
+        {
+          "civil": "PlayStation",
+          "impostor": "Mando inalámbrico"
+        },
+        {
+          "civil": "Xbox",
+          "impostor": "Game Pass"
+        },
+        {
+          "civil": "Nintendo Switch",
+          "impostor": "Joy-Con"
+        },
+        {
+          "civil": "Wii",
+          "impostor": "Sensor de movimiento"
+        },
+        {
+          "civil": "Game Boy",
+          "impostor": "Pantalla verde"
+        },
+        {
+          "civil": "Nintendo DS",
+          "impostor": "Doble pantalla"
+        },
+        {
+          "civil": "VR Headset",
+          "impostor": "Quest"
+        },
+        {
+          "civil": "Tesla",
+          "impostor": "Eléctrico"
+        },
+        {
+          "civil": "SpaceX",
+          "impostor": "Cohete"
+        },
+        {
+          "civil": "Blockchain",
+          "impostor": "Cadena"
+        },
+        {
+          "civil": "Bitcoin",
+          "impostor": "Satoshi"
+        },
+        {
+          "civil": "Ethereum",
+          "impostor": "Smart contract"
+        },
+        {
+          "civil": "NFT",
+          "impostor": "Colección digital"
+        },
+        {
+          "civil": "Wallet",
+          "impostor": "Frase semilla"
+        },
+        {
+          "civil": "VPN",
+          "impostor": "Privacidad"
+        },
+        {
+          "civil": "Antivirus",
+          "impostor": "Análisis"
+        },
+        {
+          "civil": "Hacker",
+          "impostor": "Sudadera"
+        },
+        {
+          "civil": "Phishing",
+          "impostor": "Cebo"
+        },
+        {
+          "civil": "Malware",
+          "impostor": "Infección"
+        },
+        {
+          "civil": "Firewall",
+          "impostor": "Muro"
+        },
+        {
+          "civil": "DDOS",
+          "impostor": "Tráfico masivo"
+        },
+        {
+          "civil": "Captcha",
+          "impostor": "Semáforo"
+        },
+        {
+          "civil": "Cookies",
+          "impostor": "Galleta"
+        },
+        {
+          "civil": "Marketplace",
+          "impostor": "Vendedor"
+        },
+        {
+          "civil": "Tablet",
+          "impostor": "Móvil"
+        },
+        {
+          "civil": "Bluetooth",
+          "impostor": "Wi-Fi"
+        },
+        {
+          "civil": "Altavoz",
+          "impostor": "Auriculares"
+        },
+        {
+          "civil": "Batería",
+          "impostor": "Cargador"
+        },
+        {
+          "civil": "Almacenamiento",
+          "impostor": "Disco duro"
+        },
+        {
+          "civil": "Puerto",
+          "impostor": "USB"
+        },
+        {
+          "civil": "Procesador",
+          "impostor": "Memoria RAM"
+        },
+        {
+          "civil": "Hélice",
+          "impostor": "Drone"
+        },
+        {
+          "civil": "Objetivo",
+          "impostor": "Cámara réflex"
+        },
+        {
+          "civil": "Algoritmo",
+          "impostor": "Inteligencia artificial"
+        },
+        {
+          "civil": "Repositorio",
+          "impostor": "GitHub"
+        },
+        {
+          "civil": "Página web",
+          "impostor": "HTML"
+        },
+        {
+          "civil": "Word",
+          "impostor": "Office"
+        },
+        {
+          "civil": "Diapositiva",
+          "impostor": "PowerPoint"
+        },
+        {
+          "civil": "Curriculum",
+          "impostor": "LinkedIn"
+        },
+        {
+          "civil": "Playlist",
+          "impostor": "Spotify"
+        },
+        {
+          "civil": "Cohete",
+          "impostor": "SpaceX"
+        }
       ]
     },
     {
@@ -65,11 +3636,618 @@
       "name": "Películas y Series",
       "emoji": "🎬",
       "words": [
-        { "civil": "Titanic", "impostor": "Iceberg" },
-        { "civil": "Matrix", "impostor": "Realidad virtual" },
-        { "civil": "Star Wars", "impostor": "Sable láser" },
-        { "civil": "Harry Potter", "impostor": "Varita" },
-        { "civil": "Friends", "impostor": "Cafetería" }
+        {
+          "civil": "Titanic",
+          "impostor": "Iceberg"
+        },
+        {
+          "civil": "Matrix",
+          "impostor": "Pastilla roja"
+        },
+        {
+          "civil": "Star Wars",
+          "impostor": "Sable láser"
+        },
+        {
+          "civil": "Harry Potter",
+          "impostor": "Varita"
+        },
+        {
+          "civil": "Friends",
+          "impostor": "Cafetería"
+        },
+        {
+          "civil": "El Señor de los Anillos",
+          "impostor": "Hobbit"
+        },
+        {
+          "civil": "El Hobbit",
+          "impostor": "Dragón"
+        },
+        {
+          "civil": "El Padrino",
+          "impostor": "Cabeza de caballo"
+        },
+        {
+          "civil": "Pulp Fiction",
+          "impostor": "Maletín"
+        },
+        {
+          "civil": "Forrest Gump",
+          "impostor": "Bombones"
+        },
+        {
+          "civil": "Gladiator",
+          "impostor": "Coliseo"
+        },
+        {
+          "civil": "Braveheart",
+          "impostor": "Libertad"
+        },
+        {
+          "civil": "Salvar al soldado Ryan",
+          "impostor": "Normandía"
+        },
+        {
+          "civil": "Casablanca",
+          "impostor": "Piano"
+        },
+        {
+          "civil": "Lo que el viento se llevó",
+          "impostor": "Atlanta"
+        },
+        {
+          "civil": "Psicosis",
+          "impostor": "Ducha"
+        },
+        {
+          "civil": "El Resplandor",
+          "impostor": "Hotel"
+        },
+        {
+          "civil": "Tiburón",
+          "impostor": "Playa"
+        },
+        {
+          "civil": "ET",
+          "impostor": "Dedo iluminado"
+        },
+        {
+          "civil": "Indiana Jones",
+          "impostor": "Látigo"
+        },
+        {
+          "civil": "Jurassic Park",
+          "impostor": "Mosquito en ámbar"
+        },
+        {
+          "civil": "Regreso al Futuro",
+          "impostor": "DeLorean"
+        },
+        {
+          "civil": "Los Goonies",
+          "impostor": "Mapa del tesoro"
+        },
+        {
+          "civil": "Karate Kid",
+          "impostor": "Dar cera"
+        },
+        {
+          "civil": "Rocky",
+          "impostor": "Filadelfia"
+        },
+        {
+          "civil": "Rambo",
+          "impostor": "Cinta en la cabeza"
+        },
+        {
+          "civil": "Terminator",
+          "impostor": "Volveré"
+        },
+        {
+          "civil": "Alien",
+          "impostor": "Nave Nostromo"
+        },
+        {
+          "civil": "Predator",
+          "impostor": "Selva"
+        },
+        {
+          "civil": "Robocop",
+          "impostor": "Detroit"
+        },
+        {
+          "civil": "Mad Max",
+          "impostor": "Australia"
+        },
+        {
+          "civil": "Blade Runner",
+          "impostor": "Replicante"
+        },
+        {
+          "civil": "2001: Odisea del espacio",
+          "impostor": "HAL 9000"
+        },
+        {
+          "civil": "Encuentros en la tercera fase",
+          "impostor": "Spielberg"
+        },
+        {
+          "civil": "El día de la independencia",
+          "impostor": "4 de julio"
+        },
+        {
+          "civil": "Armageddon",
+          "impostor": "Asteroide"
+        },
+        {
+          "civil": "Deep Impact",
+          "impostor": "Cometa"
+        },
+        {
+          "civil": "Interstellar",
+          "impostor": "Agujero negro"
+        },
+        {
+          "civil": "Origen",
+          "impostor": "Tótem"
+        },
+        {
+          "civil": "Gravity",
+          "impostor": "Astronauta perdida"
+        },
+        {
+          "civil": "Wall-E",
+          "impostor": "Basura"
+        },
+        {
+          "civil": "Up",
+          "impostor": "Globos"
+        },
+        {
+          "civil": "Coco",
+          "impostor": "Día de Muertos"
+        },
+        {
+          "civil": "Buscando a Nemo",
+          "impostor": "Pez payaso"
+        },
+        {
+          "civil": "Toy Story",
+          "impostor": "Vaquero"
+        },
+        {
+          "civil": "Cars",
+          "impostor": "Rayo"
+        },
+        {
+          "civil": "Ratatouille",
+          "impostor": "París"
+        },
+        {
+          "civil": "Monstruos S.A.",
+          "impostor": "Puerta"
+        },
+        {
+          "civil": "Inside Out",
+          "impostor": "Emoción"
+        },
+        {
+          "civil": "Frozen",
+          "impostor": "Reno"
+        },
+        {
+          "civil": "Encanto",
+          "impostor": "Colombia"
+        },
+        {
+          "civil": "Moana",
+          "impostor": "Polinesia"
+        },
+        {
+          "civil": "Mulán",
+          "impostor": "China"
+        },
+        {
+          "civil": "Aladdín",
+          "impostor": "Lámpara"
+        },
+        {
+          "civil": "El Rey León",
+          "impostor": "Sabana"
+        },
+        {
+          "civil": "La Sirenita",
+          "impostor": "Tridente"
+        },
+        {
+          "civil": "La Bella y la Bestia",
+          "impostor": "Rosa encantada"
+        },
+        {
+          "civil": "Cenicienta",
+          "impostor": "Zapato de cristal"
+        },
+        {
+          "civil": "Blancanieves",
+          "impostor": "Manzana envenenada"
+        },
+        {
+          "civil": "La Bella Durmiente",
+          "impostor": "Huso"
+        },
+        {
+          "civil": "Pinocho",
+          "impostor": "Nariz larga"
+        },
+        {
+          "civil": "Bambi",
+          "impostor": "Bosque"
+        },
+        {
+          "civil": "Dumbo",
+          "impostor": "Orejas grandes"
+        },
+        {
+          "civil": "El Libro de la Selva",
+          "impostor": "Mowgli"
+        },
+        {
+          "civil": "Tarzán",
+          "impostor": "Liana"
+        },
+        {
+          "civil": "Hércules",
+          "impostor": "Mitología"
+        },
+        {
+          "civil": "Pocahontas",
+          "impostor": "Colibrí"
+        },
+        {
+          "civil": "Shrek",
+          "impostor": "Pantano"
+        },
+        {
+          "civil": "Madagascar",
+          "impostor": "Zoo"
+        },
+        {
+          "civil": "Kung Fu Panda",
+          "impostor": "Fideos"
+        },
+        {
+          "civil": "Cómo entrenar a tu dragón",
+          "impostor": "Vikingo"
+        },
+        {
+          "civil": "Avatar",
+          "impostor": "Pandora"
+        },
+        {
+          "civil": "Avengers",
+          "impostor": "Asamblea"
+        },
+        {
+          "civil": "Iron Man",
+          "impostor": "Reactor"
+        },
+        {
+          "civil": "Capitán América",
+          "impostor": "Escudo"
+        },
+        {
+          "civil": "Thor",
+          "impostor": "Mjolnir"
+        },
+        {
+          "civil": "Hulk",
+          "impostor": "Pantalones rotos"
+        },
+        {
+          "civil": "Spider-Man",
+          "impostor": "Tela"
+        },
+        {
+          "civil": "Doctor Strange",
+          "impostor": "Capa"
+        },
+        {
+          "civil": "Black Panther",
+          "impostor": "Wakanda"
+        },
+        {
+          "civil": "Guardianes de la Galaxia",
+          "impostor": "Groot"
+        },
+        {
+          "civil": "Deadpool",
+          "impostor": "Cuarta pared"
+        },
+        {
+          "civil": "Wolverine",
+          "impostor": "Garras"
+        },
+        {
+          "civil": "X-Men",
+          "impostor": "Mutante"
+        },
+        {
+          "civil": "Batman",
+          "impostor": "Gotham"
+        },
+        {
+          "civil": "Superman",
+          "impostor": "Kriptonita"
+        },
+        {
+          "civil": "Wonder Woman",
+          "impostor": "Lazo"
+        },
+        {
+          "civil": "Aquaman",
+          "impostor": "Atlantis"
+        },
+        {
+          "civil": "Flash",
+          "impostor": "Velocidad"
+        },
+        {
+          "civil": "Joker",
+          "impostor": "Maquillaje"
+        },
+        {
+          "civil": "Breaking Bad",
+          "impostor": "Caravana"
+        },
+        {
+          "civil": "Better Call Saul",
+          "impostor": "Abogado turbio"
+        },
+        {
+          "civil": "Game of Thrones",
+          "impostor": "Trono de hierro"
+        },
+        {
+          "civil": "House of the Dragon",
+          "impostor": "Targaryen"
+        },
+        {
+          "civil": "The Witcher",
+          "impostor": "Geralt"
+        },
+        {
+          "civil": "Stranger Things",
+          "impostor": "Mundo del Revés"
+        },
+        {
+          "civil": "The Walking Dead",
+          "impostor": "Apocalipsis zombi"
+        },
+        {
+          "civil": "Lost",
+          "impostor": "Isla"
+        },
+        {
+          "civil": "Prison Break",
+          "impostor": "Tatuaje"
+        },
+        {
+          "civil": "24",
+          "impostor": "Tiempo real"
+        },
+        {
+          "civil": "House",
+          "impostor": "Bastón"
+        },
+        {
+          "civil": "Grey's Anatomy",
+          "impostor": "Hospital"
+        },
+        {
+          "civil": "CSI",
+          "impostor": "Forense"
+        },
+        {
+          "civil": "Mentes Criminales",
+          "impostor": "Perfilador"
+        },
+        {
+          "civil": "Mr. Robot",
+          "impostor": "Hacker"
+        },
+        {
+          "civil": "Black Mirror",
+          "impostor": "Distopía"
+        },
+        {
+          "civil": "The Mandalorian",
+          "impostor": "Baby Yoda"
+        },
+        {
+          "civil": "The Boys",
+          "impostor": "Patriota"
+        },
+        {
+          "civil": "Invencible",
+          "impostor": "Animado"
+        },
+        {
+          "civil": "Arcane",
+          "impostor": "Piltóver"
+        },
+        {
+          "civil": "La Casa de Papel",
+          "impostor": "Mono rojo"
+        },
+        {
+          "civil": "Élite",
+          "impostor": "Las Encinas"
+        },
+        {
+          "civil": "Vis a vis",
+          "impostor": "Cárcel"
+        },
+        {
+          "civil": "El Ministerio del Tiempo",
+          "impostor": "Puerta del tiempo"
+        },
+        {
+          "civil": "Águila Roja",
+          "impostor": "Antifaz"
+        },
+        {
+          "civil": "Cuéntame",
+          "impostor": "Familia Alcántara"
+        },
+        {
+          "civil": "Los Serrano",
+          "impostor": "Chimo Bayo"
+        },
+        {
+          "civil": "Aquí no hay quien viva",
+          "impostor": "Comunidad"
+        },
+        {
+          "civil": "La que se avecina",
+          "impostor": "Mirador de Montepinar"
+        },
+        {
+          "civil": "Los Simpson",
+          "impostor": "Springfield"
+        },
+        {
+          "civil": "Padre de Familia",
+          "impostor": "Stewie"
+        },
+        {
+          "civil": "South Park",
+          "impostor": "Colorado"
+        },
+        {
+          "civil": "Rick y Morty",
+          "impostor": "Multiverso"
+        },
+        {
+          "civil": "Dragon Ball",
+          "impostor": "Esfera"
+        },
+        {
+          "civil": "Naruto",
+          "impostor": "Banda ninja"
+        },
+        {
+          "civil": "One Piece",
+          "impostor": "Tesoro"
+        },
+        {
+          "civil": "Bleach",
+          "impostor": "Shinigami"
+        },
+        {
+          "civil": "Death Note",
+          "impostor": "Cuaderno"
+        },
+        {
+          "civil": "Attack on Titan",
+          "impostor": "Muralla"
+        },
+        {
+          "civil": "My Hero Academia",
+          "impostor": "Quirk"
+        },
+        {
+          "civil": "Demon Slayer",
+          "impostor": "Espada nichirin"
+        },
+        {
+          "civil": "Chainsaw Man",
+          "impostor": "Diablo"
+        },
+        {
+          "civil": "Jujutsu Kaisen",
+          "impostor": "Maldición"
+        },
+        {
+          "civil": "Studio Ghibli",
+          "impostor": "Miyazaki"
+        },
+        {
+          "civil": "El viaje de Chihiro",
+          "impostor": "Sin Cara"
+        },
+        {
+          "civil": "La princesa Mononoke",
+          "impostor": "Lobo blanco"
+        },
+        {
+          "civil": "Mi vecino Totoro",
+          "impostor": "Sombrilla"
+        },
+        {
+          "civil": "Quentin Tarantino",
+          "impostor": "Pies"
+        },
+        {
+          "civil": "Christopher Nolan",
+          "impostor": "No lineal"
+        },
+        {
+          "civil": "Steven Spielberg",
+          "impostor": "Aventura"
+        },
+        {
+          "civil": "Martin Scorsese",
+          "impostor": "Mafia"
+        },
+        {
+          "civil": "Stanley Kubrick",
+          "impostor": "Simetría"
+        },
+        {
+          "civil": "Pedro Almodóvar",
+          "impostor": "Color"
+        },
+        {
+          "civil": "Alejandro Amenábar",
+          "impostor": "Tesis"
+        },
+        {
+          "civil": "Oscar",
+          "impostor": "Estatuilla dorada"
+        },
+        {
+          "civil": "Cannes",
+          "impostor": "Palma de oro"
+        },
+        {
+          "civil": "Goya",
+          "impostor": "Cabezón"
+        },
+        {
+          "civil": "Emmy",
+          "impostor": "Televisión"
+        },
+        {
+          "civil": "Globo de Oro",
+          "impostor": "Hollywood"
+        },
+        {
+          "civil": "Sundance",
+          "impostor": "Independiente"
+        },
+        {
+          "civil": "Festival de San Sebastián",
+          "impostor": "Concha"
+        },
+        {
+          "civil": "Final feliz",
+          "impostor": "Beso"
+        },
+        {
+          "civil": "Cliffhanger",
+          "impostor": "Suspense"
+        }
       ]
     },
     {
@@ -77,11 +4255,654 @@
       "name": "Lugares y Geografía",
       "emoji": "🗺️",
       "words": [
-        { "civil": "Madrid", "impostor": "Barcelona" },
-        { "civil": "París", "impostor": "Lyon" },
-        { "civil": "Tokio", "impostor": "Kioto" },
-        { "civil": "Nueva York", "impostor": "Boston" },
-        { "civil": "Roma", "impostor": "Milán" }
+        {
+          "civil": "Madrid",
+          "impostor": "Cibeles"
+        },
+        {
+          "civil": "Barcelona",
+          "impostor": "Sagrada Familia"
+        },
+        {
+          "civil": "Sevilla",
+          "impostor": "Giralda"
+        },
+        {
+          "civil": "Valencia",
+          "impostor": "Fallas"
+        },
+        {
+          "civil": "Bilbao",
+          "impostor": "Guggenheim"
+        },
+        {
+          "civil": "Granada",
+          "impostor": "Alhambra"
+        },
+        {
+          "civil": "Córdoba",
+          "impostor": "Mezquita"
+        },
+        {
+          "civil": "Toledo",
+          "impostor": "Espada"
+        },
+        {
+          "civil": "Salamanca",
+          "impostor": "Universidad"
+        },
+        {
+          "civil": "Santiago de Compostela",
+          "impostor": "Camino"
+        },
+        {
+          "civil": "Oviedo",
+          "impostor": "Carbayón"
+        },
+        {
+          "civil": "Gijón",
+          "impostor": "Cimadevilla"
+        },
+        {
+          "civil": "Avilés",
+          "impostor": "Niemeyer"
+        },
+        {
+          "civil": "Zaragoza",
+          "impostor": "Pilar"
+        },
+        {
+          "civil": "Málaga",
+          "impostor": "Picasso"
+        },
+        {
+          "civil": "San Sebastián",
+          "impostor": "La Concha"
+        },
+        {
+          "civil": "Pamplona",
+          "impostor": "San Fermín"
+        },
+        {
+          "civil": "Cádiz",
+          "impostor": "Carnaval"
+        },
+        {
+          "civil": "Cuenca",
+          "impostor": "Casas colgadas"
+        },
+        {
+          "civil": "Segovia",
+          "impostor": "Acueducto"
+        },
+        {
+          "civil": "Ávila",
+          "impostor": "Muralla"
+        },
+        {
+          "civil": "Burgos",
+          "impostor": "Catedral gótica"
+        },
+        {
+          "civil": "León",
+          "impostor": "Vidrieras"
+        },
+        {
+          "civil": "Cáceres",
+          "impostor": "Casco antiguo"
+        },
+        {
+          "civil": "París",
+          "impostor": "Torre Eiffel"
+        },
+        {
+          "civil": "Londres",
+          "impostor": "Big Ben"
+        },
+        {
+          "civil": "Roma",
+          "impostor": "Coliseo"
+        },
+        {
+          "civil": "Berlín",
+          "impostor": "Muro"
+        },
+        {
+          "civil": "Ámsterdam",
+          "impostor": "Canal"
+        },
+        {
+          "civil": "Lisboa",
+          "impostor": "Tranvía"
+        },
+        {
+          "civil": "Dublín",
+          "impostor": "Trébol"
+        },
+        {
+          "civil": "Edimburgo",
+          "impostor": "Castillo"
+        },
+        {
+          "civil": "Atenas",
+          "impostor": "Partenón"
+        },
+        {
+          "civil": "Estambul",
+          "impostor": "Bósforo"
+        },
+        {
+          "civil": "Praga",
+          "impostor": "Reloj astronómico"
+        },
+        {
+          "civil": "Viena",
+          "impostor": "Vals"
+        },
+        {
+          "civil": "Budapest",
+          "impostor": "Termal"
+        },
+        {
+          "civil": "Varsovia",
+          "impostor": "Reconstruida"
+        },
+        {
+          "civil": "Moscú",
+          "impostor": "Plaza Roja"
+        },
+        {
+          "civil": "San Petersburgo",
+          "impostor": "Hermitage"
+        },
+        {
+          "civil": "Estocolmo",
+          "impostor": "Archipiélago"
+        },
+        {
+          "civil": "Oslo",
+          "impostor": "Fiordo"
+        },
+        {
+          "civil": "Copenhague",
+          "impostor": "Sirenita"
+        },
+        {
+          "civil": "Helsinki",
+          "impostor": "Sauna"
+        },
+        {
+          "civil": "Reikiavik",
+          "impostor": "Aurora boreal"
+        },
+        {
+          "civil": "Bruselas",
+          "impostor": "Mannequin Pis"
+        },
+        {
+          "civil": "Brujas",
+          "impostor": "Canales medievales"
+        },
+        {
+          "civil": "Múnich",
+          "impostor": "Oktoberfest"
+        },
+        {
+          "civil": "Hamburgo",
+          "impostor": "Puerto"
+        },
+        {
+          "civil": "Milán",
+          "impostor": "Moda"
+        },
+        {
+          "civil": "Florencia",
+          "impostor": "Renacimiento"
+        },
+        {
+          "civil": "Venecia",
+          "impostor": "Góndola"
+        },
+        {
+          "civil": "Nápoles",
+          "impostor": "Vesubio"
+        },
+        {
+          "civil": "Pisa",
+          "impostor": "Inclinada"
+        },
+        {
+          "civil": "Nueva York",
+          "impostor": "Estatua de la Libertad"
+        },
+        {
+          "civil": "Los Ángeles",
+          "impostor": "Hollywood"
+        },
+        {
+          "civil": "San Francisco",
+          "impostor": "Golden Gate"
+        },
+        {
+          "civil": "Las Vegas",
+          "impostor": "Casino"
+        },
+        {
+          "civil": "Miami",
+          "impostor": "Playa de arena blanca"
+        },
+        {
+          "civil": "Chicago",
+          "impostor": "Ventoso"
+        },
+        {
+          "civil": "Boston",
+          "impostor": "Té"
+        },
+        {
+          "civil": "Washington",
+          "impostor": "Casa Blanca"
+        },
+        {
+          "civil": "Nueva Orleans",
+          "impostor": "Jazz"
+        },
+        {
+          "civil": "Toronto",
+          "impostor": "CN Tower"
+        },
+        {
+          "civil": "Vancouver",
+          "impostor": "Pacífico"
+        },
+        {
+          "civil": "Montreal",
+          "impostor": "Francófono"
+        },
+        {
+          "civil": "Ciudad de México",
+          "impostor": "Zócalo"
+        },
+        {
+          "civil": "La Habana",
+          "impostor": "Coches antiguos"
+        },
+        {
+          "civil": "Buenos Aires",
+          "impostor": "Tango"
+        },
+        {
+          "civil": "Río de Janeiro",
+          "impostor": "Cristo Redentor"
+        },
+        {
+          "civil": "São Paulo",
+          "impostor": "Megaurbe"
+        },
+        {
+          "civil": "Lima",
+          "impostor": "Machu Picchu"
+        },
+        {
+          "civil": "Cusco",
+          "impostor": "Inca"
+        },
+        {
+          "civil": "Bogotá",
+          "impostor": "Monserrate"
+        },
+        {
+          "civil": "Cartagena de Indias",
+          "impostor": "Murallas"
+        },
+        {
+          "civil": "Santiago de Chile",
+          "impostor": "Andes"
+        },
+        {
+          "civil": "Quito",
+          "impostor": "Mitad del mundo"
+        },
+        {
+          "civil": "Caracas",
+          "impostor": "Ávila"
+        },
+        {
+          "civil": "Tokio",
+          "impostor": "Shibuya"
+        },
+        {
+          "civil": "Kioto",
+          "impostor": "Geisha"
+        },
+        {
+          "civil": "Osaka",
+          "impostor": "Castillo blanco"
+        },
+        {
+          "civil": "Pekín",
+          "impostor": "Ciudad Prohibida"
+        },
+        {
+          "civil": "Shanghái",
+          "impostor": "Bund"
+        },
+        {
+          "civil": "Hong Kong",
+          "impostor": "Skyline"
+        },
+        {
+          "civil": "Singapur",
+          "impostor": "Marina Bay"
+        },
+        {
+          "civil": "Bangkok",
+          "impostor": "Tuk-tuk"
+        },
+        {
+          "civil": "Seúl",
+          "impostor": "K-pop"
+        },
+        {
+          "civil": "Dubái",
+          "impostor": "Burj Khalifa"
+        },
+        {
+          "civil": "Abu Dabi",
+          "impostor": "Mezquita blanca"
+        },
+        {
+          "civil": "Doha",
+          "impostor": "Mundial 2022"
+        },
+        {
+          "civil": "Mumbai",
+          "impostor": "Bollywood"
+        },
+        {
+          "civil": "Nueva Delhi",
+          "impostor": "Taj Mahal"
+        },
+        {
+          "civil": "El Cairo",
+          "impostor": "Pirámide"
+        },
+        {
+          "civil": "Marrakech",
+          "impostor": "Zoco"
+        },
+        {
+          "civil": "Casablanca",
+          "impostor": "Película clásica"
+        },
+        {
+          "civil": "Ciudad del Cabo",
+          "impostor": "Mesa"
+        },
+        {
+          "civil": "Nairobi",
+          "impostor": "Safari"
+        },
+        {
+          "civil": "Sídney",
+          "impostor": "Ópera"
+        },
+        {
+          "civil": "Melbourne",
+          "impostor": "Open de tenis"
+        },
+        {
+          "civil": "Auckland",
+          "impostor": "Maorí"
+        },
+        {
+          "civil": "España",
+          "impostor": "Toro"
+        },
+        {
+          "civil": "Francia",
+          "impostor": "Croissant"
+        },
+        {
+          "civil": "Italia",
+          "impostor": "Vespa"
+        },
+        {
+          "civil": "Alemania",
+          "impostor": "Bratwurst"
+        },
+        {
+          "civil": "Reino Unido",
+          "impostor": "Doble decker"
+        },
+        {
+          "civil": "Irlanda",
+          "impostor": "Pelirrojo"
+        },
+        {
+          "civil": "Portugal",
+          "impostor": "Bacalao"
+        },
+        {
+          "civil": "Holanda",
+          "impostor": "Tulipán"
+        },
+        {
+          "civil": "Suiza",
+          "impostor": "Reloj"
+        },
+        {
+          "civil": "Austria",
+          "impostor": "Mozart"
+        },
+        {
+          "civil": "Grecia",
+          "impostor": "Olimpo"
+        },
+        {
+          "civil": "Turquía",
+          "impostor": "Café"
+        },
+        {
+          "civil": "Egipto",
+          "impostor": "Faraón"
+        },
+        {
+          "civil": "Marruecos",
+          "impostor": "Té con menta"
+        },
+        {
+          "civil": "Sudáfrica",
+          "impostor": "Mandela"
+        },
+        {
+          "civil": "Kenia",
+          "impostor": "Maasai"
+        },
+        {
+          "civil": "Tanzania",
+          "impostor": "Kilimanjaro"
+        },
+        {
+          "civil": "China",
+          "impostor": "Muralla"
+        },
+        {
+          "civil": "Japón",
+          "impostor": "Sakura"
+        },
+        {
+          "civil": "Corea del Sur",
+          "impostor": "Kimchi"
+        },
+        {
+          "civil": "India",
+          "impostor": "Vaca sagrada"
+        },
+        {
+          "civil": "Tailandia",
+          "impostor": "Templo dorado"
+        },
+        {
+          "civil": "Vietnam",
+          "impostor": "Bahía"
+        },
+        {
+          "civil": "Indonesia",
+          "impostor": "Bali"
+        },
+        {
+          "civil": "Filipinas",
+          "impostor": "Manila"
+        },
+        {
+          "civil": "Australia",
+          "impostor": "Boomerang"
+        },
+        {
+          "civil": "Nueva Zelanda",
+          "impostor": "Kiwi"
+        },
+        {
+          "civil": "Estados Unidos",
+          "impostor": "Hamburguesa"
+        },
+        {
+          "civil": "Canadá",
+          "impostor": "Hoja de arce"
+        },
+        {
+          "civil": "México",
+          "impostor": "Mariachi"
+        },
+        {
+          "civil": "Cuba",
+          "impostor": "Habano"
+        },
+        {
+          "civil": "Argentina",
+          "impostor": "Mate"
+        },
+        {
+          "civil": "Brasil",
+          "impostor": "Samba"
+        },
+        {
+          "civil": "Perú",
+          "impostor": "Ceviche"
+        },
+        {
+          "civil": "Colombia",
+          "impostor": "Café de origen"
+        },
+        {
+          "civil": "Chile",
+          "impostor": "Cordillera"
+        },
+        {
+          "civil": "Venezuela",
+          "impostor": "Salto Ángel"
+        },
+        {
+          "civil": "Rusia",
+          "impostor": "Vodka"
+        },
+        {
+          "civil": "Polonia",
+          "impostor": "Pierogi"
+        },
+        {
+          "civil": "Suecia",
+          "impostor": "IKEA"
+        },
+        {
+          "civil": "Finlandia",
+          "impostor": "Renos"
+        },
+        {
+          "civil": "Mediterráneo",
+          "impostor": "Olivo"
+        },
+        {
+          "civil": "Atlántico",
+          "impostor": "Ola"
+        },
+        {
+          "civil": "Pacífico",
+          "impostor": "Anillo de fuego"
+        },
+        {
+          "civil": "Caribe",
+          "impostor": "Pirata"
+        },
+        {
+          "civil": "Mar Muerto",
+          "impostor": "Flotar"
+        },
+        {
+          "civil": "Mar Negro",
+          "impostor": "Crimea"
+        },
+        {
+          "civil": "Mar Rojo",
+          "impostor": "Coral"
+        },
+        {
+          "civil": "Himalaya",
+          "impostor": "Sherpa"
+        },
+        {
+          "civil": "Andes",
+          "impostor": "Llama"
+        },
+        {
+          "civil": "Alpes",
+          "impostor": "Heidi"
+        },
+        {
+          "civil": "Pirineos",
+          "impostor": "Aneto"
+        },
+        {
+          "civil": "Sierra Nevada",
+          "impostor": "Estación de esquí"
+        },
+        {
+          "civil": "Picos de Europa",
+          "impostor": "Naranjo de Bulnes"
+        },
+        {
+          "civil": "Amazonas",
+          "impostor": "Pulmón"
+        },
+        {
+          "civil": "Nilo",
+          "impostor": "Cocodrilo"
+        },
+        {
+          "civil": "Misisipi",
+          "impostor": "Vapor"
+        },
+        {
+          "civil": "Danubio",
+          "impostor": "Azul"
+        },
+        {
+          "civil": "Ebro",
+          "impostor": "Delta"
+        },
+        {
+          "civil": "Coliseo",
+          "impostor": "Roma"
+        },
+        {
+          "civil": "Partenón",
+          "impostor": "Atenas"
+        },
+        {
+          "civil": "Pirámide",
+          "impostor": "El Cairo"
+        }
       ]
     },
     {
@@ -89,11 +4910,834 @@
       "name": "Profesiones",
       "emoji": "👷",
       "words": [
-        { "civil": "Médico", "impostor": "Enfermero" },
-        { "civil": "Profesor", "impostor": "Pedagogo" },
-        { "civil": "Bombero", "impostor": "Policía" },
-        { "civil": "Cocinero", "impostor": "Camarero" },
-        { "civil": "Abogado", "impostor": "Juez" }
+        {
+          "civil": "Médico",
+          "impostor": "Estetoscopio"
+        },
+        {
+          "civil": "Profesor",
+          "impostor": "Pizarra"
+        },
+        {
+          "civil": "Bombero",
+          "impostor": "Policía"
+        },
+        {
+          "civil": "Cocinero",
+          "impostor": "Camarero"
+        },
+        {
+          "civil": "Abogado",
+          "impostor": "Toga"
+        },
+        {
+          "civil": "Enfermero",
+          "impostor": "Inyección"
+        },
+        {
+          "civil": "Cirujano",
+          "impostor": "Quirófano"
+        },
+        {
+          "civil": "Dentista",
+          "impostor": "Caries"
+        },
+        {
+          "civil": "Pediatra",
+          "impostor": "Vacuna"
+        },
+        {
+          "civil": "Psicólogo",
+          "impostor": "Diván"
+        },
+        {
+          "civil": "Psiquiatra",
+          "impostor": "Receta"
+        },
+        {
+          "civil": "Veterinario",
+          "impostor": "Mascota"
+        },
+        {
+          "civil": "Farmacéutico",
+          "impostor": "Mortero"
+        },
+        {
+          "civil": "Óptico",
+          "impostor": "Graduación"
+        },
+        {
+          "civil": "Fisioterapeuta",
+          "impostor": "Camilla"
+        },
+        {
+          "civil": "Nutricionista",
+          "impostor": "Dieta"
+        },
+        {
+          "civil": "Maestro",
+          "impostor": "Recreo"
+        },
+        {
+          "civil": "Profesor universitario",
+          "impostor": "Tesis"
+        },
+        {
+          "civil": "Bibliotecario",
+          "impostor": "Silencio"
+        },
+        {
+          "civil": "Investigador",
+          "impostor": "Laboratorio"
+        },
+        {
+          "civil": "Científico",
+          "impostor": "Microscopio"
+        },
+        {
+          "civil": "Astronauta",
+          "impostor": "Gravedad cero"
+        },
+        {
+          "civil": "Astrónomo",
+          "impostor": "Telescopio"
+        },
+        {
+          "civil": "Físico",
+          "impostor": "Ecuación"
+        },
+        {
+          "civil": "Químico",
+          "impostor": "Probeta"
+        },
+        {
+          "civil": "Biólogo",
+          "impostor": "Especie"
+        },
+        {
+          "civil": "Matemático",
+          "impostor": "Demostración"
+        },
+        {
+          "civil": "Geólogo",
+          "impostor": "Roca"
+        },
+        {
+          "civil": "Meteorólogo",
+          "impostor": "Nube"
+        },
+        {
+          "civil": "Arqueólogo",
+          "impostor": "Excavación"
+        },
+        {
+          "civil": "Historiador",
+          "impostor": "Archivo"
+        },
+        {
+          "civil": "Antropólogo",
+          "impostor": "Tribu"
+        },
+        {
+          "civil": "Lingüista",
+          "impostor": "Idioma"
+        },
+        {
+          "civil": "Traductor",
+          "impostor": "Diccionario"
+        },
+        {
+          "civil": "Intérprete",
+          "impostor": "Cabina"
+        },
+        {
+          "civil": "Periodista",
+          "impostor": "Micrófono"
+        },
+        {
+          "civil": "Reportero",
+          "impostor": "Directo"
+        },
+        {
+          "civil": "Escritor",
+          "impostor": "Editorial"
+        },
+        {
+          "civil": "Poeta",
+          "impostor": "Verso"
+        },
+        {
+          "civil": "Guionista",
+          "impostor": "Diálogo"
+        },
+        {
+          "civil": "Editor",
+          "impostor": "Manuscrito"
+        },
+        {
+          "civil": "Corrector",
+          "impostor": "Errata"
+        },
+        {
+          "civil": "Redactor",
+          "impostor": "Noticia"
+        },
+        {
+          "civil": "Locutor",
+          "impostor": "Radio"
+        },
+        {
+          "civil": "Presentador",
+          "impostor": "Plató"
+        },
+        {
+          "civil": "Cámara",
+          "impostor": "Trípode"
+        },
+        {
+          "civil": "Director de cine",
+          "impostor": "Acción"
+        },
+        {
+          "civil": "Productor",
+          "impostor": "Presupuesto"
+        },
+        {
+          "civil": "Actor",
+          "impostor": "Guion"
+        },
+        {
+          "civil": "Doblador",
+          "impostor": "Voz en off"
+        },
+        {
+          "civil": "Maquillador",
+          "impostor": "Caracterización"
+        },
+        {
+          "civil": "Vestuarista",
+          "impostor": "Atrezzo"
+        },
+        {
+          "civil": "Iluminador",
+          "impostor": "Foco"
+        },
+        {
+          "civil": "Sonidista",
+          "impostor": "Pértiga"
+        },
+        {
+          "civil": "Editor de vídeo",
+          "impostor": "Timeline"
+        },
+        {
+          "civil": "Bailarín",
+          "impostor": "Coreografía"
+        },
+        {
+          "civil": "Cantante",
+          "impostor": "Tablao"
+        },
+        {
+          "civil": "Compositor",
+          "impostor": "Partitura"
+        },
+        {
+          "civil": "Director de orquesta",
+          "impostor": "Batuta"
+        },
+        {
+          "civil": "Músico",
+          "impostor": "Ensayo"
+        },
+        {
+          "civil": "DJ",
+          "impostor": "Plato"
+        },
+        {
+          "civil": "Productor musical",
+          "impostor": "Estudio"
+        },
+        {
+          "civil": "Pintor",
+          "impostor": "Caballete"
+        },
+        {
+          "civil": "Escultor",
+          "impostor": "Mármol"
+        },
+        {
+          "civil": "Ceramista",
+          "impostor": "Torno"
+        },
+        {
+          "civil": "Diseñador gráfico",
+          "impostor": "Logo"
+        },
+        {
+          "civil": "Diseñador de moda",
+          "impostor": "Pasarela"
+        },
+        {
+          "civil": "Modelo",
+          "impostor": "Catálogo"
+        },
+        {
+          "civil": "Fotógrafo",
+          "impostor": "Cámara reflex"
+        },
+        {
+          "civil": "Arquitecto",
+          "impostor": "Plano"
+        },
+        {
+          "civil": "Aparejador",
+          "impostor": "Obra"
+        },
+        {
+          "civil": "Ingeniero",
+          "impostor": "Cálculo"
+        },
+        {
+          "civil": "Ingeniero de software",
+          "impostor": "Código"
+        },
+        {
+          "civil": "Ingeniero civil",
+          "impostor": "Puente"
+        },
+        {
+          "civil": "Ingeniero industrial",
+          "impostor": "Fábrica"
+        },
+        {
+          "civil": "Ingeniero aeronáutico",
+          "impostor": "Turbina"
+        },
+        {
+          "civil": "Programador",
+          "impostor": "Bug"
+        },
+        {
+          "civil": "Tester",
+          "impostor": "Error"
+        },
+        {
+          "civil": "Diseñador UX",
+          "impostor": "Wireframe"
+        },
+        {
+          "civil": "Analista de datos",
+          "impostor": "Gráfica"
+        },
+        {
+          "civil": "Consultor",
+          "impostor": "PowerPoint"
+        },
+        {
+          "civil": "Albañil",
+          "impostor": "Cemento"
+        },
+        {
+          "civil": "Carpintero",
+          "impostor": "Serrucho"
+        },
+        {
+          "civil": "Fontanero",
+          "impostor": "Tubería"
+        },
+        {
+          "civil": "Electricista",
+          "impostor": "Cable"
+        },
+        {
+          "civil": "Pintor de brocha gorda",
+          "impostor": "Rodillo"
+        },
+        {
+          "civil": "Jardinero",
+          "impostor": "Tijera de podar"
+        },
+        {
+          "civil": "Cerrajero",
+          "impostor": "Llave"
+        },
+        {
+          "civil": "Soldador",
+          "impostor": "Chispa"
+        },
+        {
+          "civil": "Mecánico",
+          "impostor": "Aceite"
+        },
+        {
+          "civil": "Chapista",
+          "impostor": "Abolladura"
+        },
+        {
+          "civil": "Camarero",
+          "impostor": "Comanda"
+        },
+        {
+          "civil": "Maître",
+          "impostor": "Reserva"
+        },
+        {
+          "civil": "Chef",
+          "impostor": "Estrella Michelin"
+        },
+        {
+          "civil": "Pastelero",
+          "impostor": "Manga pastelera"
+        },
+        {
+          "civil": "Panadero",
+          "impostor": "Levadura"
+        },
+        {
+          "civil": "Carnicero",
+          "impostor": "Cuchilla"
+        },
+        {
+          "civil": "Pescadero",
+          "impostor": "Hielo"
+        },
+        {
+          "civil": "Frutero",
+          "impostor": "Báscula"
+        },
+        {
+          "civil": "Verdulero",
+          "impostor": "Mercado"
+        },
+        {
+          "civil": "Sumiller",
+          "impostor": "Cata"
+        },
+        {
+          "civil": "Barista",
+          "impostor": "Latte art"
+        },
+        {
+          "civil": "Barman",
+          "impostor": "Coctelera"
+        },
+        {
+          "civil": "Hotelero",
+          "impostor": "Recepción"
+        },
+        {
+          "civil": "Recepcionista",
+          "impostor": "Habitación"
+        },
+        {
+          "civil": "Conserje",
+          "impostor": "Guardia"
+        },
+        {
+          "civil": "Limpiador",
+          "impostor": "Mopa"
+        },
+        {
+          "civil": "Repartidor",
+          "impostor": "Furgoneta"
+        },
+        {
+          "civil": "Cartero",
+          "impostor": "Buzón"
+        },
+        {
+          "civil": "Mensajero",
+          "impostor": "Casco"
+        },
+        {
+          "civil": "Camionero",
+          "impostor": "Autopista"
+        },
+        {
+          "civil": "Taxista",
+          "impostor": "Taxímetro"
+        },
+        {
+          "civil": "Conductor de autobús",
+          "impostor": "Parada"
+        },
+        {
+          "civil": "Maquinista",
+          "impostor": "Vías"
+        },
+        {
+          "civil": "Piloto",
+          "impostor": "Cabina"
+        },
+        {
+          "civil": "Azafata",
+          "impostor": "Carrito"
+        },
+        {
+          "civil": "Marinero",
+          "impostor": "Cubierta"
+        },
+        {
+          "civil": "Capitán",
+          "impostor": "Timón"
+        },
+        {
+          "civil": "Pescador",
+          "impostor": "Caña"
+        },
+        {
+          "civil": "Granjero",
+          "impostor": "Tractor"
+        },
+        {
+          "civil": "Agricultor",
+          "impostor": "Cosecha"
+        },
+        {
+          "civil": "Ganadero",
+          "impostor": "Rebaño"
+        },
+        {
+          "civil": "Apicultor",
+          "impostor": "Traje blanco"
+        },
+        {
+          "civil": "Florista",
+          "impostor": "Ramo"
+        },
+        {
+          "civil": "Peluquero",
+          "impostor": "Mechón"
+        },
+        {
+          "civil": "Barbero",
+          "impostor": "Navaja"
+        },
+        {
+          "civil": "Esteticista",
+          "impostor": "Cabina"
+        },
+        {
+          "civil": "Maquilladora",
+          "impostor": "Pestaña"
+        },
+        {
+          "civil": "Manicurista",
+          "impostor": "Esmalte"
+        },
+        {
+          "civil": "Tatuador",
+          "impostor": "Aguja"
+        },
+        {
+          "civil": "Masajista",
+          "impostor": "Aceite esencial"
+        },
+        {
+          "civil": "Entrenador personal",
+          "impostor": "Repetición"
+        },
+        {
+          "civil": "Socorrista",
+          "impostor": "Flotador"
+        },
+        {
+          "civil": "Monitor de esquí",
+          "impostor": "Pista azul"
+        },
+        {
+          "civil": "Guía turístico",
+          "impostor": "Bandera"
+        },
+        {
+          "civil": "Azafato de tierra",
+          "impostor": "Mostrador"
+        },
+        {
+          "civil": "Comercial",
+          "impostor": "Cierre de venta"
+        },
+        {
+          "civil": "Vendedor",
+          "impostor": "Comisión"
+        },
+        {
+          "civil": "Cajero",
+          "impostor": "Ticket"
+        },
+        {
+          "civil": "Contable",
+          "impostor": "Balance"
+        },
+        {
+          "civil": "Auditor",
+          "impostor": "Revisión"
+        },
+        {
+          "civil": "Banquero",
+          "impostor": "Hipoteca"
+        },
+        {
+          "civil": "Asesor financiero",
+          "impostor": "Cartera"
+        },
+        {
+          "civil": "Bróker",
+          "impostor": "Bolsa"
+        },
+        {
+          "civil": "Empresario",
+          "impostor": "Junta directiva"
+        },
+        {
+          "civil": "Político",
+          "impostor": "Mitin"
+        },
+        {
+          "civil": "Diplomático",
+          "impostor": "Embajada"
+        },
+        {
+          "civil": "Juez",
+          "impostor": "Mazo"
+        },
+        {
+          "civil": "Fiscal",
+          "impostor": "Acusación"
+        },
+        {
+          "civil": "Notario",
+          "impostor": "Escritura"
+        },
+        {
+          "civil": "Procurador",
+          "impostor": "Tribunal"
+        },
+        {
+          "civil": "Detective",
+          "impostor": "Lupa"
+        },
+        {
+          "civil": "Espía",
+          "impostor": "Identidad falsa"
+        },
+        {
+          "civil": "Soldado",
+          "impostor": "Trinchera"
+        },
+        {
+          "civil": "General",
+          "impostor": "Estrella"
+        },
+        {
+          "civil": "Sacerdote",
+          "impostor": "Confesionario"
+        },
+        {
+          "civil": "Monja",
+          "impostor": "Convento"
+        },
+        {
+          "civil": "Imán",
+          "impostor": "Mezquita"
+        },
+        {
+          "civil": "Rabino",
+          "impostor": "Torá"
+        },
+        {
+          "civil": "Estetoscopio",
+          "impostor": "Médico"
+        },
+        {
+          "civil": "Pizarra",
+          "impostor": "Profesor"
+        },
+        {
+          "civil": "Policía",
+          "impostor": "Bombero"
+        },
+        {
+          "civil": "Toga",
+          "impostor": "Abogado"
+        },
+        {
+          "civil": "Inyección",
+          "impostor": "Enfermero"
+        },
+        {
+          "civil": "Quirófano",
+          "impostor": "Cirujano"
+        },
+        {
+          "civil": "Caries",
+          "impostor": "Dentista"
+        },
+        {
+          "civil": "Vacuna",
+          "impostor": "Pediatra"
+        },
+        {
+          "civil": "Diván",
+          "impostor": "Psicólogo"
+        },
+        {
+          "civil": "Mortero",
+          "impostor": "Farmacéutico"
+        },
+        {
+          "civil": "Camilla",
+          "impostor": "Fisioterapeuta"
+        },
+        {
+          "civil": "Recreo",
+          "impostor": "Maestro"
+        },
+        {
+          "civil": "Tesis",
+          "impostor": "Profesor universitario"
+        },
+        {
+          "civil": "Laboratorio",
+          "impostor": "Investigador"
+        },
+        {
+          "civil": "Microscopio",
+          "impostor": "Científico"
+        },
+        {
+          "civil": "Telescopio",
+          "impostor": "Astrónomo"
+        },
+        {
+          "civil": "Probeta",
+          "impostor": "Químico"
+        },
+        {
+          "civil": "Diccionario",
+          "impostor": "Traductor"
+        },
+        {
+          "civil": "Radio",
+          "impostor": "Locutor"
+        },
+        {
+          "civil": "Plató",
+          "impostor": "Presentador"
+        },
+        {
+          "civil": "Guion",
+          "impostor": "Actor"
+        },
+        {
+          "civil": "Coreografía",
+          "impostor": "Bailarín"
+        },
+        {
+          "civil": "Partitura",
+          "impostor": "Compositor"
+        },
+        {
+          "civil": "Caballete",
+          "impostor": "Pintor"
+        },
+        {
+          "civil": "Mármol",
+          "impostor": "Escultor"
+        },
+        {
+          "civil": "Logo",
+          "impostor": "Diseñador gráfico"
+        },
+        {
+          "civil": "Pasarela",
+          "impostor": "Diseñador de moda"
+        },
+        {
+          "civil": "Plano",
+          "impostor": "Arquitecto"
+        },
+        {
+          "civil": "Puente",
+          "impostor": "Ingeniero civil"
+        },
+        {
+          "civil": "Bug",
+          "impostor": "Programador"
+        },
+        {
+          "civil": "Cemento",
+          "impostor": "Albañil"
+        },
+        {
+          "civil": "Serrucho",
+          "impostor": "Carpintero"
+        },
+        {
+          "civil": "Tubería",
+          "impostor": "Fontanero"
+        },
+        {
+          "civil": "Cable",
+          "impostor": "Electricista"
+        },
+        {
+          "civil": "Levadura",
+          "impostor": "Panadero"
+        },
+        {
+          "civil": "Cata",
+          "impostor": "Sumiller"
+        },
+        {
+          "civil": "Recepción",
+          "impostor": "Hotelero"
+        },
+        {
+          "civil": "Furgoneta",
+          "impostor": "Repartidor"
+        },
+        {
+          "civil": "Autopista",
+          "impostor": "Camionero"
+        },
+        {
+          "civil": "Taxímetro",
+          "impostor": "Taxista"
+        },
+        {
+          "civil": "Tractor",
+          "impostor": "Granjero"
+        },
+        {
+          "civil": "Navaja",
+          "impostor": "Barbero"
+        },
+        {
+          "civil": "Flotador",
+          "impostor": "Socorrista"
+        },
+        {
+          "civil": "Mazo",
+          "impostor": "Juez"
+        },
+        {
+          "civil": "Lupa",
+          "impostor": "Detective"
+        },
+        {
+          "civil": "Trinchera",
+          "impostor": "Soldado"
+        },
+        {
+          "civil": "Confesionario",
+          "impostor": "Sacerdote"
+        },
+        {
+          "civil": "Convento",
+          "impostor": "Monja"
+        }
       ]
     }
   ]
