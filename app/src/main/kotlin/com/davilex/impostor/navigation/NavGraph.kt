@@ -111,8 +111,8 @@ fun NavGraph(navController: NavHostController = rememberNavController()) {
         composable(Routes.RESULT) {
             ResultScreen(
                 onNewGame = {
-                    navController.navigate(Routes.SETUP) {
-                        popUpTo(Routes.HOME) { inclusive = false }
+                    navController.navigate(Routes.ROLE_REVEAL) {
+                        popUpTo(Routes.SETUP) { inclusive = false }
                     }
                 },
                 onHome = {

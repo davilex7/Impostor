@@ -122,8 +122,7 @@ fun ResultScreen(
             }
             Column {
                 PrimaryButton(text = "Nueva Partida", onClick = {
-                    viewModel.clearSession()
-                    onNewGame()
+                    viewModel.restartGame(onReady = onNewGame)
                 })
                 Spacer(Modifier.height(8.dp))
                 SecondaryButton(text = "Inicio", onClick = {
