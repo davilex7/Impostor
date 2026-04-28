@@ -1,6 +1,6 @@
 package com.davilex.impostor.ui.components
 
-import androidx.compose.animation.core.animateFloatAsState
+import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
 import androidx.compose.foundation.gestures.detectVerticalDragGestures
@@ -18,12 +18,12 @@ import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
-import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableFloatStateOf
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.rememberCoroutineScope
+import androidx.compose.runtime.getValue
 import androidx.compose.runtime.setValue
-import androidx.compose.runtime.snapshotFlow
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
@@ -35,6 +35,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
+import kotlinx.coroutines.launch
 
 @Composable
 fun SwipeRevealCard(
@@ -44,19 +45,12 @@ fun SwipeRevealCard(
     coverHint: String = "Desliza tu tarjeta hacia arriba para revelar tu palabra. ¡Evita a los impostores! 👀"
 ) {
     var heightPx by remember { mutableFloatStateOf(0f) }
-    var dragOffset by remember { mutableFloatStateOf(0f) }
+    val offset = remember { Animatable(0f) }
     var isRevealed by remember { mutableStateOf(false) }
+    val scope = rememberCoroutineScope()
 
-    val animatedOffset by animateFloatAsState(
-        targetValue = if (isRevealed) -heightPx else dragOffset,
-        animationSpec = tween(durationMillis = 320),
-        label = "swipe-reveal-offset"
-    )
-
-    LaunchedEffect(Unit) {
-        snapshotFlow { isRevealed }.collect { revealed ->
-            if (revealed) onRevealed()
-        }
+    LaunchedEffect(isRevealed) {
+        if (isRevealed) onRevealed()
     }
 
     Box(
@@ -78,23 +72,39 @@ fun SwipeRevealCard(
         if (!isRevealed) {
             CoverCard(
                 hint = coverHint,
-                offsetY = if (heightPx > 0f) animatedOffset else dragOffset,
+                offsetY = offset.value,
                 modifier = Modifier
                     .fillMaxSize()
                     .pointerInput(heightPx) {
                         if (heightPx <= 0f) return@pointerInput
                         detectVerticalDragGestures(
                             onDragEnd = {
-                                if (dragOffset <= -heightPx * 0.5f) {
-                                    isRevealed = true
-                                } else {
-                                    dragOffset = 0f
+                                scope.launch {
+                                    if (offset.value <= -heightPx * 0.5f) {
+                                        offset.animateTo(
+                                            targetValue = -heightPx,
+                                            animationSpec = tween(durationMillis = 280)
+                                        )
+                                        isRevealed = true
+                                    } else {
+                                        offset.animateTo(
+                                            targetValue = 0f,
+                                            animationSpec = tween(durationMillis = 220)
+                                        )
+                                    }
                                 }
                             },
-                            onDragCancel = { dragOffset = 0f }
+                            onDragCancel = {
+                                scope.launch {
+                                    offset.animateTo(
+                                        targetValue = 0f,
+                                        animationSpec = tween(durationMillis = 220)
+                                    )
+                                }
+                            }
                         ) { _, dragAmount ->
-                            val next = (dragOffset + dragAmount).coerceIn(-heightPx, 0f)
-                            dragOffset = next
+                            val next = (offset.value + dragAmount).coerceIn(-heightPx, 0f)
+                            scope.launch { offset.snapTo(next) }
                         }
                     }
             )

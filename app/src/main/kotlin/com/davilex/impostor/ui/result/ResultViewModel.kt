@@ -1,12 +1,15 @@
 package com.davilex.impostor.ui.result
 
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import com.davilex.impostor.domain.model.GameMode
 import com.davilex.impostor.domain.usecase.GameSession
+import com.davilex.impostor.domain.usecase.StartGameUseCase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow
+import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 data class ResultUiState(
@@ -22,7 +25,8 @@ data class ResultUiState(
 
 @HiltViewModel
 class ResultViewModel @Inject constructor(
-    private val gameSession: GameSession
+    private val gameSession: GameSession,
+    private val startGameUseCase: StartGameUseCase
 ) : ViewModel() {
 
     private val _state = MutableStateFlow(ResultUiState())
@@ -49,5 +53,22 @@ class ResultViewModel @Inject constructor(
 
     fun clearSession() {
         gameSession.clear()
+    }
+
+    fun restartGame(onReady: () -> Unit) {
+        val config = gameSession.current?.config
+        if (config == null) {
+            gameSession.clear()
+            onReady()
+            return
+        }
+        viewModelScope.launch {
+            val result = startGameUseCase(config)
+            result.fold(
+                onSuccess = { gameSession.store(it) },
+                onFailure = { gameSession.clear() }
+            )
+            onReady()
+        }
     }
 }
